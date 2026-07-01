@@ -3,10 +3,6 @@
 An automated data-quality framework that runs validation rules against the
 **official NBA stats API** and visualizes the results in a React dashboard.
 
-This is the kind of work QA / Software Engineers in Test do at sports-tech
-companies: continuously verifying that live data is accurate, complete, and
-internally consistent before it reaches users.
-
 ---
 
 ## What it does
