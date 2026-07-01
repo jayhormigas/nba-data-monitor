@@ -50,6 +50,9 @@ from validators import (
     validate_no_duplicate_player_ids,
     validate_jersey_numbers_are_numeric,
     validate_players_have_names,
+    validate_game_has_two_teams,
+    validate_scores_non_negative,
+    validate_scoreboard_game_ids_unique,
 )
 
 # Where to write the output files (inside the frontend's public folder
@@ -88,19 +91,18 @@ def main():
 
     # --- Fetch all the data we need up front ---
     # get_all_teams() reads bundled data and never hits the network, so it's
-    # safe outside the try. The standings and roster calls DO hit stats.nba.com,
-    # which can hang/time out (it geo-blocks and rate-limits aggressively). If
-    # that happens we don't want a wall of red traceback — we keep whatever
-    # results.json already exists so the dashboard still works, and exit cleanly.
+    # safe outside the try. Standings, rosters, and the scoreboard come from
+    # ESPN, which is reliable — but if it's ever unreachable we don't want a
+    # wall of red traceback. We keep whatever results.json already exists so the
+    # dashboard still works, and exit cleanly.
     teams = client.get_all_teams()
     try:
         standings = client.get_standings_df().to_dict("records")
         roster = client.get_roster_df(LAKERS_ID).to_dict("records")
+        scoreboard = client.get_scoreboard()
     except requests.exceptions.RequestException as e:
-        print("\nCould not reach the live NBA API (stats.nba.com).")
-        print(f"  Reason: {e.__class__.__name__} - the server accepted the")
-        print("  connection but never sent data back. This is almost always the")
-        print("  NBA blocking/rate-limiting your network, not a bug in this code.\n")
+        print("\nCould not reach the live NBA data source (ESPN).")
+        print(f"  Reason: {e.__class__.__name__}.\n")
         if os.path.exists(RESULTS_FILE):
             print("Good news: an existing results file is already in place, so the")
             print("dashboard will still work with the most recent data.")
@@ -112,6 +114,20 @@ def main():
         print("  cd frontend")
         print("  npm run dev")
         sys.exit(0)   # not a crash — this is an expected, handled outcome
+
+    # Pull the scoreboard's two sub-tables (GameHeader, LineScore) into plain
+    # lists of dicts so the scoreboard validators can read them by column name.
+    result_sets = scoreboard.get("resultSets", [])
+
+    def scoreboard_table(name):
+        table = next((rs for rs in result_sets if rs.get("name") == name),
+                     {"headers": [], "rowSet": []})
+        columns = table.get("headers", [])
+        return [dict(zip(columns, row)) for row in table.get("rowSet", [])]
+
+    game_headers = scoreboard_table("GameHeader")   # [{"GAME_ID": ...}, ...]
+    line_scores  = scoreboard_table("LineScore")    # [{"GAME_ID","TEAM_ABBREVIATION","PTS"}]
+    game_ids     = [g["GAME_ID"] for g in game_headers]
 
     # --- Run every rule, collecting the results in a list ---
     checks = [
@@ -150,7 +166,33 @@ def main():
                   validate_jersey_numbers_are_numeric, roster),
         run_check("Rosters", "All players have names",
                   validate_players_have_names, roster),
+
+        # Scoreboard rules (today's games; an empty scoreboard in the
+        # offseason still passes these cleanly)
+        run_check("Scoreboard", "Game IDs are unique",
+                  validate_scoreboard_game_ids_unique, game_headers),
+        run_check("Scoreboard", "Scores are non-negative",
+                  validate_scores_non_negative, line_scores),
     ]
+
+    # The "2 teams per game" rule applies to a single game at a time, so run it
+    # across every game today and pass only if they all check out (vacuously
+    # true when there are no games scheduled).
+    if game_ids:
+        two_teams_ok, two_teams_msg = True, f"All {len(game_ids)} games have exactly 2 teams"
+        for gid in game_ids:
+            ok, msg = validate_game_has_two_teams(line_scores, gid)
+            if not ok:
+                two_teams_ok, two_teams_msg = False, msg
+                break
+    else:
+        two_teams_ok, two_teams_msg = True, "No games scheduled today - nothing to validate"
+    checks.append({
+        "category": "Scoreboard",
+        "rule": "Every game has exactly 2 teams",
+        "passed": two_teams_ok,
+        "message": two_teams_msg,
+    })
 
     # --- Summarize ---
     total  = len(checks)

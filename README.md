@@ -29,7 +29,7 @@ rule's status with category breakdowns and a pass-rate trend chart.
 
 | Part | Technology |
 |------|------------|
-| Data source | `nba_api` (official NBA stats, no API key needed) |
+| Data source | ESPN's public NBA API (standings, rosters, scoreboard) + `nba_api` static team data — no API key needed |
 | Validation logic | Python — pure, fully unit-tested functions |
 | Test suite | `pytest` (unit, integration, contract) + `pytest-cov` |
 | Dashboard | React + Vite |
@@ -121,7 +121,7 @@ Then open the URL it prints (usually http://localhost:3000).
 | Layer | Tests | Purpose |
 |-------|-------|---------|
 | Unit | 57 | Every rule tested with fake data, including edge cases |
-| Integration | 24 | Rules run against live Lakers/Celtics rosters, standings, scoreboard |
+| Integration | 23 | Rules run against live Lakers/Celtics rosters, standings, scoreboard |
 | Contract | 14 | Confirms the NBA API still returns the expected structure |
 
 ---

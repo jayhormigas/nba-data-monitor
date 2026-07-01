@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-02T03:35:00.879162+00:00",
+  "generated_at": "2026-07-01T04:28:11.115906+00:00",
   "summary": {
-    "total": 15,
-    "passed": 15,
+    "total": 18,
+    "passed": 18,
     "failed": 0,
     "pass_rate": 100.0
   },
@@ -96,6 +96,24 @@
       "rule": "All players have names",
       "passed": true,
       "message": "All players have names"
+    },
+    {
+      "category": "Scoreboard",
+      "rule": "Game IDs are unique",
+      "passed": true,
+      "message": "All 1 game IDs are unique"
+    },
+    {
+      "category": "Scoreboard",
+      "rule": "Scores are non-negative",
+      "passed": true,
+      "message": "All scores are non-negative"
+    },
+    {
+      "category": "Scoreboard",
+      "rule": "Every game has exactly 2 teams",
+      "passed": true,
+      "message": "All 1 games have exactly 2 teams"
     }
   ]
 }
