@@ -1,0 +1,74 @@
+[
+  {
+    "generated_at": "2026-05-22T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-23T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-24T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-25T03:35:00.879162+00:00",
+    "pass_rate": 93.3,
+    "passed": 14,
+    "failed": 1
+  },
+  {
+    "generated_at": "2026-05-26T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-27T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-28T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-29T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-30T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-05-31T03:35:00.879162+00:00",
+    "pass_rate": 93.3,
+    "passed": 14,
+    "failed": 1
+  },
+  {
+    "generated_at": "2026-06-01T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-06-02T03:35:00.879162+00:00",
+    "pass_rate": 100.0,
+    "passed": 15,
+    "failed": 0
+  }
+]
