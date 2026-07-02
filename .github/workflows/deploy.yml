@@ -44,25 +44,16 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Pull fresh NBA data and rebuild results.json
-        # GitHub's servers are US-based, so the NBA API that times out on a home
-        # network usually works here. If it doesn't, generate_report.py exits
-        # cleanly and keeps the existing data. continue-on-error means even an
-        # unexpected data hiccup never blocks the deploy.
+        # Regenerate results.json / results-history.json from ESPN's live data.
+        # If ESPN is ever unreachable, generate_report.py exits cleanly and keeps
+        # the existing data; continue-on-error means a data hiccup never blocks
+        # the deploy. The commit-back of this fresh data happens LAST (below),
+        # AFTER the deploy — committing it earlier moves the branch head and
+        # makes the Pages deploy fail.
         continue-on-error: true
         run: python generate_report.py
 
-      # ---------- 2. Save the refreshed data back to the repo ----------
-      # This is what makes the trend chart grow over time and puts a green
-      # square on your GitHub contributions graph every day.
-      - name: Commit refreshed data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add frontend/public/results.json frontend/public/results-history.json
-          git commit -m "chore: daily NBA data refresh [skip ci]" || echo "No data changes to commit."
-          git push || echo "Nothing to push."
-
-      # ---------- 3. Build the React dashboard ----------
+      # ---------- 2. Build the React dashboard ----------
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -90,3 +81,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # ---------- 5. Save the refreshed data back to the repo (LAST) ----------
+      # Done AFTER the deploy so this commit can't move the branch head while
+      # GitHub Pages is publishing (that ordering was what made the deploy fail).
+      # This is what makes the trend chart accumulate real runs over time.
+      - name: Commit refreshed data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/results.json frontend/public/results-history.json
+          git commit -m "chore: daily NBA data refresh [skip ci]" || echo "No data changes to commit."
+          git push || echo "Nothing to push."
