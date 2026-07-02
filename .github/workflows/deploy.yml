@@ -18,17 +18,19 @@ permissions:
   pages: write
   id-token: write
 
-# Never run two deploys at once; if a newer run starts, cancel the older one.
+# Allow only one Pages deployment at a time, but DON'T cancel one that's
+# already publishing — cancelling a production deploy mid-flight is exactly
+# what GitHub's own Pages guidance warns against. Extra runs queue instead.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy1.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
@@ -48,8 +50,7 @@ jobs:
         # If ESPN is ever unreachable, generate_report.py exits cleanly and keeps
         # the existing data; continue-on-error means a data hiccup never blocks
         # the deploy. The commit-back of this fresh data happens LAST (below),
-        # AFTER the deploy — committing it earlier moves the branch head and
-        # makes the Pages deploy fail.
+        # after the deploy, so a publish and a git push never overlap.
         continue-on-error: true
         run: python generate_report.py
 
@@ -78,8 +79,21 @@ jobs:
         with:
           path: frontend/dist
 
-      - name: Deploy to GitHub Pages
-        id: deployment
+      # GitHub Pages' backend intermittently returns "Deployment failed, try
+      # again later." — a transient error on their side. So we try once
+      # (soft-fail), wait, and retry. The job only fails if BOTH attempts fail.
+      - name: Deploy to GitHub Pages (attempt 1)
+        id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: Wait before retrying
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 25
+
+      - name: Deploy to GitHub Pages (retry)
+        id: deploy2
+        if: steps.deploy1.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
       # ---------- 5. Save the refreshed data back to the repo (LAST) ----------
