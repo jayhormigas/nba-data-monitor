@@ -345,6 +345,71 @@ main.container {
   text-overflow: ellipsis;
 }
 
+/* ── Raw-data panels (the "Show data" tables under each section) ── */
+.data-toggle {
+  margin-left: auto;               /* push to the far right of the header row */
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  background: rgba(255, 107, 53, 0.10);
+  border: 1px solid rgba(255, 107, 53, 0.25);
+  border-radius: 20px;
+  padding: 4px 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.data-toggle:hover { background: rgba(255, 107, 53, 0.18); }
+
+.data-panel {
+  margin-top: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.data-note,
+.data-empty {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+}
+.data-note { margin-bottom: 8px; }
+
+/* Fixed-height scroll box for the long league-wide roster list */
+.data-scroll {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 12px;
+}
+.data-table th {
+  text-align: left;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;                /* keep headers visible while scrolling */
+  top: 0;
+  background: var(--surface);
+}
+.data-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(35, 44, 58, 0.5);
+  color: var(--text);
+  white-space: nowrap;
+}
+.data-table tbody tr:hover { background: var(--surface-2); }
+
 /* ── Responsive: stack the summary cards on narrow screens ── */
 @media (max-width: 640px) {
   .summary-cards { grid-template-columns: repeat(2, 1fr); }

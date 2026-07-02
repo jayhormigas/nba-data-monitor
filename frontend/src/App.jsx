@@ -99,6 +99,7 @@ export default function App() {
               key={category}
               category={category}
               checks={grouped[category]}
+              data={results.data}
             />
           ))}
         </div>

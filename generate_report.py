@@ -85,6 +85,20 @@ def run_check(category, name, validator_fn, data):
     }
 
 
+def run_roster_check(name, validator_fn, rosters, ok_message):
+    """
+    Run one roster rule against every team's roster. Passes only if all 30
+    rosters pass; on the first failure it reports which team broke the rule.
+    """
+    for team_name, players in rosters.items():
+        passed, message = validator_fn(players)
+        if not passed:
+            return {"category": "Rosters", "rule": name,
+                    "passed": False, "message": f"{team_name}: {message}"}
+    return {"category": "Rosters", "rule": name,
+            "passed": True, "message": ok_message}
+
+
 def main():
     print("Fetching live NBA data and running validation rules...\n")
     client = NBAClient()
@@ -98,8 +112,12 @@ def main():
     teams = client.get_all_teams()
     try:
         standings = client.get_standings_df().to_dict("records")
-        roster = client.get_roster_df(LAKERS_ID).to_dict("records")
         scoreboard = client.get_scoreboard()
+        # Fetch every team's roster (one quick ESPN call each) so the monitor
+        # validates the whole league, not just one team. Keyed by team name.
+        print("  Fetching all 30 rosters from ESPN...")
+        rosters = {t["full_name"]: client.get_roster_df(t["id"]).to_dict("records")
+                   for t in teams}
     except requests.exceptions.RequestException as e:
         print("\nCould not reach the live NBA data source (ESPN).")
         print(f"  Reason: {e.__class__.__name__}.\n")
@@ -157,15 +175,19 @@ def main():
         run_check("Standings", "No duplicate teams in standings",
                   validate_no_duplicate_team_names_in_standings, standings),
 
-        # Roster rules (spot-checking the Lakers)
-        run_check("Rosters", "Roster is not empty (>=10 players)",
-                  validate_roster_not_empty, roster),
-        run_check("Rosters", "No duplicate player IDs",
-                  validate_no_duplicate_player_ids, roster),
-        run_check("Rosters", "Jersey numbers are valid",
-                  validate_jersey_numbers_are_numeric, roster),
-        run_check("Rosters", "All players have names",
-                  validate_players_have_names, roster),
+        # Roster rules — run against ALL 30 teams' rosters, not just one
+        run_roster_check("Every roster has 10+ players",
+                         validate_roster_not_empty, rosters,
+                         "All 30 rosters have at least 10 players"),
+        run_roster_check("No duplicate player IDs",
+                         validate_no_duplicate_player_ids, rosters,
+                         "No duplicate player IDs in any of the 30 rosters"),
+        run_roster_check("Jersey numbers are valid",
+                         validate_jersey_numbers_are_numeric, rosters,
+                         "All jersey numbers valid across all 30 rosters"),
+        run_roster_check("All players have names",
+                         validate_players_have_names, rosters,
+                         "Every player on all 30 rosters has a name"),
 
         # Scoreboard rules (today's games; an empty scoreboard in the
         # offseason still passes these cleanly)
@@ -201,6 +223,28 @@ def main():
     pass_rate = round((passed / total) * 100, 1) if total else 0
     timestamp = datetime.now(timezone.utc).isoformat()
 
+    # Raw data behind the rules, so the dashboard can show it for anyone who
+    # wants to eyeball the actual numbers each check ran against.
+    games = []
+    for gid in game_ids:
+        rows  = [ls for ls in line_scores if ls.get("GAME_ID") == gid]
+        abbrs = " vs ".join(r.get("TEAM_ABBREVIATION", "?") for r in rows)
+        score = " - ".join(str(r.get("PTS", "")) for r in rows)
+        games.append({"matchup": abbrs or str(gid), "score": score})
+
+    data = {
+        "teams": [{"team": t["full_name"], "abbr": t["abbreviation"],
+                   "city": t["city"], "state": t["state"],
+                   "founded": t["year_founded"]} for t in teams],
+        "standings": [{"team": s["TeamName"], "wins": s["WINS"],
+                       "losses": s["LOSSES"], "win_pct": s["WinPCT"]}
+                      for s in standings],
+        "rosters": [{"team": team_name, "number": p.get("NUM", ""),
+                     "player": p.get("PLAYER", "")}
+                    for team_name, players in rosters.items() for p in players],
+        "games": games,
+    }
+
     results = {
         "generated_at": timestamp,
         "summary": {
@@ -210,6 +254,7 @@ def main():
             "pass_rate": pass_rate,
         },
         "checks": checks,
+        "data": data,
     }
 
     # Make sure the output folder exists, then write the results file.
