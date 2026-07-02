@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T16:18:56.189170+00:00",
+  "generated_at": "2026-07-02T16:00:44.956730+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -77,13 +77,13 @@
       "category": "Rosters",
       "rule": "Roster is not empty (>=10 players)",
       "passed": true,
-      "message": "Roster has 18 players (>=10)"
+      "message": "Roster has 20 players (>=10)"
     },
     {
       "category": "Rosters",
       "rule": "No duplicate player IDs",
       "passed": true,
-      "message": "All 18 player IDs are unique"
+      "message": "All 20 player IDs are unique"
     },
     {
       "category": "Rosters",
