@@ -65,6 +65,17 @@ def _with_retries(make_call):
             if attempt < MAX_RETRIES:
                 print(f"  ESPN request timed out (attempt {attempt}/{MAX_RETRIES}) - retrying...")
                 time.sleep(2)
+        except requests.exceptions.HTTPError as e:
+            # Server-side errors (5xx) are transient blips worth retrying.
+            # Client errors (4xx) mean the request itself is wrong and won't
+            # heal on retry, so re-raise those immediately.
+            status = e.response.status_code if e.response is not None else 0
+            if status < 500:
+                raise
+            last_error = e
+            if attempt < MAX_RETRIES:
+                print(f"  ESPN returned {status} (attempt {attempt}/{MAX_RETRIES}) - retrying...")
+                time.sleep(2)
     raise last_error
 
 
