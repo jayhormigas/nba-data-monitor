@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T16:48:31.426105+00:00",
+  "generated_at": "2026-07-07T16:20:54.160614+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -1599,7 +1599,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "34",
+        "number": "7",
         "player": "Giannis Antetokounmpo"
       },
       {
@@ -1659,7 +1659,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "9",
+        "number": "95",
         "player": "Bobby Portis"
       },
       {
@@ -2354,7 +2354,7 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "number": "22",
+        "number": "5",
         "player": "Anfernee Simons"
       },
       {
@@ -2586,11 +2586,6 @@
         "team": "Sacramento Kings",
         "number": "5",
         "player": "Nique Clifford"
-      },
-      {
-        "team": "Sacramento Kings",
-        "number": "10",
-        "player": "DeMar DeRozan"
       },
       {
         "team": "Sacramento Kings",
