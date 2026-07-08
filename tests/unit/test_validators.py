@@ -6,7 +6,7 @@ Unit tests for the validation rules in validators.py.
 Each test feeds a validator some fake, hand-crafted data and asserts it
 returns the right (passed, message) result.
 
-No live NBA API here, on purpose: unit tests should be fast and reliable, so
+No live API calls here, on purpose: unit tests should be fast and reliable, so
 instead of hitting the network I build small fake data structures (the make_*
 helpers below) that mimic the real API's shape. That also lets me cover edge
 cases that are rare in real data, like a team with a negative score.
@@ -47,7 +47,7 @@ from validators import (
 
 # =============================================================================
 # HELPER FUNCTIONS
-# These build fake data that looks like what the NBA API returns.
+# These build fake data shaped like what the data layer returns.
 # Each helper has parameters so I can easily create both "good" data
 # (which should pass) and "bad" data (which should fail) in my tests.
 # =============================================================================

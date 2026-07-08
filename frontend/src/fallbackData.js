@@ -9,7 +9,7 @@
 
 const fallbackResults = {
   generated_at: null,
-  summary: { total: 15, passed: 15, failed: 0, pass_rate: 100.0 },
+  summary: { total: 18, passed: 18, failed: 0, pass_rate: 100.0 },
   checks: [
     { category: "Teams", rule: "League has exactly 30 teams", passed: true, message: "League has exactly 30 teams" },
     { category: "Teams", rule: "No duplicate team IDs", passed: true, message: "All team IDs are unique" },
@@ -22,10 +22,13 @@ const fallbackResults = {
     { category: "Standings", rule: "Win/loss totals are non-negative", passed: true, message: "All teams have non-negative win/loss records" },
     { category: "Standings", rule: "Win percentages are in valid range", passed: true, message: "All win percentages are in valid range [0.0, 1.0]" },
     { category: "Standings", rule: "No duplicate teams in standings", passed: true, message: "No duplicate teams in standings" },
-    { category: "Rosters", rule: "Roster is not empty (>=10 players)", passed: true, message: "Roster has 17 players (>=10)" },
-    { category: "Rosters", rule: "No duplicate player IDs", passed: true, message: "All 17 player IDs are unique" },
-    { category: "Rosters", rule: "Jersey numbers are valid", passed: true, message: "All jersey numbers are in valid range" },
-    { category: "Rosters", rule: "All players have names", passed: true, message: "All players have names" },
+    { category: "Rosters", rule: "Every roster has 10+ players", passed: true, message: "All 30 rosters have at least 10 players" },
+    { category: "Rosters", rule: "No duplicate player IDs", passed: true, message: "No duplicate player IDs in any of the 30 rosters" },
+    { category: "Rosters", rule: "Jersey numbers are valid", passed: true, message: "All jersey numbers valid across all 30 rosters" },
+    { category: "Rosters", rule: "All players have names", passed: true, message: "Every player on all 30 rosters has a name" },
+    { category: "Scoreboard", rule: "Game IDs are unique", passed: true, message: "All game IDs are unique" },
+    { category: "Scoreboard", rule: "Scores are non-negative", passed: true, message: "All scores are non-negative" },
+    { category: "Scoreboard", rule: "Every game has exactly 2 teams", passed: true, message: "All games have exactly 2 teams" },
   ],
 };
 

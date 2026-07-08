@@ -1,27 +1,20 @@
 """
 tests/contract/test_api_schema.py
 ---------------------------------
-CONTRACT TESTS for the NBA API's response structure.
+Contract tests for the data layer's response structure.
 
-What's a contract test?
-  My code depends on the NBA API returning data in a specific shape —
-  certain keys, certain nesting, certain table names. That expected
-  shape is an unwritten "contract" between my code and their API.
+The validators and dashboard depend on NBAClient returning data in a
+specific shape — certain keys, certain nesting, certain table names.
+That expected shape is an unwritten "contract" between the data layer
+and the rest of the project. These tests pin it down: they ignore the
+actual values (how many wins the Lakers have) and only check STRUCTURE
+(does each team have an "id" field at all?).
 
-  A contract test checks that the API is still honoring that contract.
-  It doesn't care about the actual values (whether the Lakers have 47
-  wins) — it only cares about STRUCTURE (does each team have an "id"
-  field at all?).
-
-Why this matters:
-  The NBA API is undocumented and can change without warning. If they
-  rename a field or restructure a response, my data-quality tests might
-  start failing in confusing ways. These contract tests fail FIRST and
-  clearly, telling me "the API shape changed" so I know exactly what
-  broke and why.
-
-  This is a real technique used in professional software teams that
-  depend on third-party APIs.
+Why it matters: ESPN's public API is undocumented and can change without
+warning. If a field gets renamed or a response restructured, the data
+layer breaks its promised shape and these tests fail FIRST and clearly —
+much easier to debug than data-quality tests failing in confusing ways
+downstream.
 """
 
 import pytest, sys, os
@@ -31,8 +24,6 @@ from nba_client import NBAClient
 # Tag these as "contract" tests so they can be run on their own.
 pytestmark = pytest.mark.contract
 CLIENT = NBAClient()
-
-LAKERS_ID = 1610612747
 
 
 # scope="module" means fetch once and reuse within this file.

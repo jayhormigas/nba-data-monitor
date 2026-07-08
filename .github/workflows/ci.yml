@@ -36,7 +36,7 @@ jobs:
           path: reports/
 
   integration-tests:
-    name: Integration + Contract Tests (live NBA API)
+    name: Integration + Contract Tests (live ESPN data)
     runs-on: ubuntu-latest
     needs: unit-tests
     steps:

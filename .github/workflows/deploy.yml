@@ -70,7 +70,7 @@ jobs:
         run: npm run build
         working-directory: frontend
 
-      # ---------- 4. Publish to GitHub Pages ----------
+      # ---------- 3. Publish to GitHub Pages ----------
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
@@ -96,7 +96,7 @@ jobs:
         if: steps.deploy1.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
-      # ---------- 5. Save the refreshed data back to the repo (LAST) ----------
+      # ---------- 4. Save the refreshed data back to the repo (LAST) ----------
       # Done AFTER the deploy so this commit can't move the branch head while
       # GitHub Pages is publishing (that ordering was what made the deploy fail).
       # This is what makes the trend chart accumulate real runs over time.

@@ -1,27 +1,17 @@
 """
 tests/integration/test_nba_api.py
 ---------------------------------
-INTEGRATION TESTS against the live NBA stats API.
+Integration tests against the live data source (ESPN's public NBA API).
 
-What's an integration test?
-  Unlike unit tests (which use fake data), integration tests check that
-  my code works correctly with a REAL external system — in this case,
-  the live NBA stats API. They confirm that the actual data the NBA
-  returns today passes all my validation rules.
+Unlike the unit tests (which use fake data), these fetch REAL data and
+confirm that what the API returns today passes every validation rule.
+This is the heart of the monitor: if live NBA data goes bad, these are
+the tests that catch it.
 
-  This is the heart of the whole project: it's where I actually monitor
-  real NBA data for quality issues, the same way a QA engineer at a
-  sports company would.
-
-Requirements:
-  These tests need an internet connection because they fetch live data.
-  They do NOT need an API key — the NBA's stats endpoints are public.
-
-How I keep these fast:
-  Fetching from the NBA API takes a second or two per call. If every
-  single test made its own API call, the suite would be slow. So I use
-  pytest "fixtures" with scope="session" (see below) — this means the
-  data is fetched ONCE and shared across all the tests in this file.
+They need an internet connection but no API key. To keep the suite fast,
+the fixtures below use scope="session" so each dataset is fetched once
+and shared across all the tests in this file, instead of re-downloading
+per test.
 """
 
 import pytest, sys, os
@@ -50,7 +40,7 @@ CELTICS_ID = 1610612738
 # the fixture returns.
 #
 # scope="session" means: run this fixture only ONCE for the whole test run
-# and reuse the result. This avoids hammering the NBA API with repeated
+# and reuse the result. This avoids hammering ESPN with repeated
 # identical requests, which keeps the suite fast and polite to their servers.
 # =============================================================================
 

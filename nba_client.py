@@ -199,8 +199,8 @@ class NBAClient:
         A team's roster as a pandas DataFrame with the columns the validators
         expect: PLAYER_ID, PLAYER (full name), NUM (jersey). One row per player.
 
-        Takes an nba_api team id (like the LAKERS_ID constant used elsewhere)
-        and translates it to ESPN's id internally.
+        Takes an nba_api team id (e.g. Lakers = 1610612747, the ids the tests
+        use) and translates it to ESPN's id internally.
         """
         espn_id = _nba_id_to_espn_id(nba_team_id)
         data = _get_json(f"{ESPN_BASE}/teams/{espn_id}/roster")

@@ -139,7 +139,7 @@ def validate_year_founded_is_realistic(teams: list) -> Result:
 
 # =============================================================================
 # STANDINGS VALIDATION RULES
-# These rules run against live standings data fetched from the NBA API.
+# These rules run against live standings data fetched from ESPN.
 # Unlike the static team data, standings change daily during the season.
 # =============================================================================
 

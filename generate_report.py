@@ -9,9 +9,10 @@ Run it from the project root with:
 
 What it produces:
   frontend/public/results.json
-      A snapshot of the latest run: a timestamp, summary counts, and
-      every rule's pass/fail status grouped by category. The dashboard
-      fetches this file and displays it.
+      A snapshot of the latest run: a timestamp, summary counts, every
+      rule's pass/fail status grouped by category, and the raw data tables
+      (teams, standings, rosters, games) behind the dashboard's "Show data"
+      panels. The dashboard fetches this file and displays it.
 
   frontend/public/results-history.json
       A running log of past runs (capped at the 30 most recent). Each
@@ -20,7 +21,7 @@ What it produces:
 
 Why a JSON file instead of a live connection?
   The React dashboard is a pure frontend app — it can't run Python or
-  call the NBA API directly (browsers block cross-origin API calls, and
+  call the live API directly (browsers block cross-origin API calls, and
   my validators are written in Python). So this script acts as the
   bridge: Python does the work and saves the results; React just reads
   and displays them. Re-run this script whenever you want fresh data.
@@ -31,7 +32,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-import requests   # used only to catch the NBA API's network errors
+import requests   # used only to catch ESPN's network errors
 
 from nba_client import NBAClient
 from validators import (
@@ -63,8 +64,6 @@ HISTORY_FILE = os.path.join(PUBLIC_DIR, "results-history.json")
 
 # Max number of past runs to keep in the history log.
 HISTORY_LIMIT = 30
-
-LAKERS_ID = 1610612747
 
 
 def run_check(category, name, validator_fn, data):
