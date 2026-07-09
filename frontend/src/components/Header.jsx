@@ -24,10 +24,21 @@ export default function Header({ generatedAt, usingLiveData }) {
     <header className="header">
       <div className="header-inner container">
         <div className="header-left">
-          {/* The little orange square logo with initials */}
-          <div className="logo">NBA</div>
+          {/* Hand-drawn basketball logo (inline SVG — no image files needed).
+              It drops in on page load and spins when hovered. */}
+          <div className="logo-ball" aria-hidden="true">
+            <svg viewBox="0 0 100 100" width="38" height="38">
+              <circle cx="50" cy="50" r="46" fill="var(--accent)" />
+              <g stroke="#0a0e14" strokeWidth="5" fill="none" strokeLinecap="round">
+                <path d="M4 50h92" />
+                <path d="M50 4v92" />
+                <path d="M18 18c15 16 15 48 0 64" />
+                <path d="M82 18c-15 16-15 48 0 64" />
+              </g>
+            </svg>
+          </div>
           <div>
-            <h1 className="title">Stats Validation Suite</h1>
+            <h1 className="title">NBA Stats Validation Suite</h1>
             <p className="subtitle">Live data quality monitoring</p>
           </div>
         </div>

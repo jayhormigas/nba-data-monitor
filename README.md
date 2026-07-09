@@ -129,7 +129,7 @@ Then open the URL it prints (usually http://localhost:3000).
 | Layer | Tests | Purpose |
 |-------|-------|---------|
 | Unit | 57 | Every rule tested with fake data, including edge cases |
-| Integration | 23 | Rules run against live Lakers/Celtics rosters, standings, scoreboard |
+| Integration | 23 | Rules run against live data — standings, scoreboard, plus the Lakers & Celtics rosters as fast spot-checks (the deployed monitor sweeps all 30 rosters) |
 | Contract | 14 | Confirms the data layer still returns the expected structure |
 
 ---

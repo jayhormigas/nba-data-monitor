@@ -8,8 +8,10 @@ export default function DataPanel({ category, data }) {
   if (category === "Teams" && data.teams) {
     return (
       <DataTable
-        headers={["Team", "Abbr", "City", "State", "Founded"]}
-        rows={data.teams.map((t) => [t.team, t.abbr, t.city, t.state, t.founded])}
+        headers={["Team ID", "Team", "Abbr", "City", "State", "Founded"]}
+        rows={data.teams.map((t) => [
+          t.id ?? "—", t.team, t.abbr, t.city, t.state, t.founded,
+        ])}
       />
     );
   }
@@ -30,8 +32,10 @@ export default function DataPanel({ category, data }) {
       <DataTable
         scroll
         note={`${data.rosters.length} players across all 30 rosters — scroll to browse`}
-        headers={["Team", "#", "Player"]}
-        rows={data.rosters.map((r) => [r.team, r.number, r.player])}
+        headers={["Team", "#", "Player", "Player ID"]}
+        rows={data.rosters.map((r) => [
+          r.team, r.number, r.player, r.player_id ?? "—",
+        ])}
       />
     );
   }
@@ -43,8 +47,8 @@ export default function DataPanel({ category, data }) {
     }
     return (
       <DataTable
-        headers={["Matchup", "Score"]}
-        rows={games.map((g) => [g.matchup, g.score])}
+        headers={["Game ID", "Matchup", "Score"]}
+        rows={games.map((g) => [g.game_id ?? "—", g.matchup, g.score])}
       />
     );
   }

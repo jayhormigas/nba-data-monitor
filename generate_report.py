@@ -229,17 +229,21 @@ def main():
         rows  = [ls for ls in line_scores if ls.get("GAME_ID") == gid]
         abbrs = " vs ".join(r.get("TEAM_ABBREVIATION", "?") for r in rows)
         score = " - ".join(str(r.get("PTS", "")) for r in rows)
-        games.append({"matchup": abbrs or str(gid), "score": score})
+        games.append({"game_id": gid, "matchup": abbrs or str(gid), "score": score})
 
+    # Every field a rule checks is included here (team IDs, player IDs, game
+    # IDs, ...) so a viewer can manually confirm any rule from the tables.
     data = {
-        "teams": [{"team": t["full_name"], "abbr": t["abbreviation"],
-                   "city": t["city"], "state": t["state"],
-                   "founded": t["year_founded"]} for t in teams],
+        "teams": [{"id": t["id"], "team": t["full_name"],
+                   "abbr": t["abbreviation"], "city": t["city"],
+                   "state": t["state"], "founded": t["year_founded"]}
+                  for t in teams],
         "standings": [{"team": s["TeamName"], "wins": s["WINS"],
                        "losses": s["LOSSES"], "win_pct": s["WinPCT"]}
                       for s in standings],
         "rosters": [{"team": team_name, "number": p.get("NUM", ""),
-                     "player": p.get("PLAYER", "")}
+                     "player": p.get("PLAYER", ""),
+                     "player_id": p.get("PLAYER_ID", "")}
                     for team_name, players in rosters.items() for p in players],
         "games": games,
     }
