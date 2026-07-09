@@ -344,14 +344,10 @@ main.container {
   display: flex;
   align-items: center;
 }
-/* Tiny basketball bullet in front of each section title */
-.category-title::before {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
+/* Category icon (player/trophy/jersey/scoreboard — see CategoryIcon.jsx) */
+.category-icon {
   margin-right: 9px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23ff6b35'/%3E%3Cg stroke='%230a0e14' stroke-width='6' fill='none'%3E%3Cpath d='M4 50h92M50 4v92M18 18c15 16 15 48 0 64M82 18c-15 16-15 48 0 64'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
+  flex-shrink: 0;
 }
 .category-badge {
   font-family: var(--mono);

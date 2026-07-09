@@ -9,6 +9,7 @@
 import { useState } from "react";
 import RuleRow from "./RuleRow.jsx";
 import DataPanel from "./DataPanel.jsx";
+import CategoryIcon from "./CategoryIcon.jsx";
 
 export default function CategorySection({ category, checks, data }) {
   // Count how many rules in this section passed, for the little header badge.
@@ -32,7 +33,10 @@ export default function CategorySection({ category, checks, data }) {
   return (
     <section className="category">
       <div className="category-header">
-        <h2 className="category-title">{category}</h2>
+        <h2 className="category-title">
+          <CategoryIcon category={category} />
+          {category}
+        </h2>
         {/* Badge turns green only if every rule in the section passed */}
         <span className={`category-badge ${allPassed ? "all-pass" : "has-fail"}`}>
           {passed}/{total}
