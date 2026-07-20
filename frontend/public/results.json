@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:48:24.269633+00:00",
+  "generated_at": "2026-07-20T15:45:54.725038+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -568,6 +568,12 @@
       },
       {
         "team": "Atlanta Hawks",
+        "number": "5",
+        "player": "Luguentz Dort",
+        "player_id": "4397020"
+      },
+      {
+        "team": "Atlanta Hawks",
         "number": "",
         "player": "Zuby Ejiofor",
         "player_id": "5106262"
@@ -628,6 +634,12 @@
       },
       {
         "team": "Atlanta Hawks",
+        "number": "9",
+        "player": "Ryan Nembhard",
+        "player_id": "4433629"
+      },
+      {
+        "team": "Atlanta Hawks",
         "number": "14",
         "player": "Asa Newell",
         "player_id": "4873201"
@@ -637,12 +649,6 @@
         "number": "17",
         "player": "Onyeka Okongwu",
         "player_id": "4431680"
-      },
-      {
-        "team": "Atlanta Hawks",
-        "number": "10",
-        "player": "Zaccharie Risacher",
-        "player_id": "5211175"
       },
       {
         "team": "Atlanta Hawks",
@@ -1156,15 +1162,15 @@
       },
       {
         "team": "Dallas Mavericks",
-        "number": "9",
-        "player": "Ryan Nembhard",
-        "player_id": "4433629"
-      },
-      {
-        "team": "Dallas Mavericks",
         "number": "1",
         "player": "John Poulakidas",
         "player_id": "4898238"
+      },
+      {
+        "team": "Dallas Mavericks",
+        "number": "10",
+        "player": "Zaccharie Risacher",
+        "player_id": "5211175"
       },
       {
         "team": "Dallas Mavericks",
@@ -3007,12 +3013,6 @@
         "number": "",
         "player": "Josh Dix",
         "player_id": "5105800"
-      },
-      {
-        "team": "Oklahoma City Thunder",
-        "number": "5",
-        "player": "Luguentz Dort",
-        "player_id": "4397020"
       },
       {
         "team": "Oklahoma City Thunder",
