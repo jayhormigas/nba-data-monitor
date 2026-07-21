@@ -1,11 +1,5 @@
 [
   {
-    "generated_at": "2026-07-01T04:28:11.115906+00:00",
-    "pass_rate": 100.0,
-    "passed": 18,
-    "failed": 0
-  },
-  {
     "generated_at": "2026-07-01T04:30:56.387309+00:00",
     "pass_rate": 100.0,
     "passed": 18,
@@ -175,6 +169,12 @@
   },
   {
     "generated_at": "2026-07-20T15:45:54.725038+00:00",
+    "pass_rate": 100.0,
+    "passed": 18,
+    "failed": 0
+  },
+  {
+    "generated_at": "2026-07-21T15:29:21.022925+00:00",
     "pass_rate": 100.0,
     "passed": 18,
     "failed": 0
