@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T15:26:42.913910+00:00",
+  "generated_at": "2026-07-23T15:48:40.004538+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -667,6 +667,12 @@
         "number": "21",
         "player": "Aaron Wiggins",
         "player_id": "4397183"
+      },
+      {
+        "team": "Atlanta Hawks",
+        "number": "22",
+        "player": "Jalen Wilson",
+        "player_id": "4431714"
       },
       {
         "team": "Boston Celtics",
@@ -1687,12 +1693,6 @@
         "number": "",
         "player": "Collin Sexton",
         "player_id": "4277811"
-      },
-      {
-        "team": "Los Angeles Lakers",
-        "number": "35",
-        "player": "Peter Suder",
-        "player_id": "5106674"
       },
       {
         "team": "Los Angeles Lakers",
