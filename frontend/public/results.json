@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:08:48.106307+00:00",
+  "generated_at": "2026-07-28T15:59:17.926345+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -1708,6 +1708,12 @@
       },
       {
         "team": "Los Angeles Lakers",
+        "number": "",
+        "player": "Matisse Thybulle",
+        "player_id": "3907498"
+      },
+      {
+        "team": "Los Angeles Lakers",
         "number": "2",
         "player": "Jarred Vanderbilt",
         "player_id": "4278077"
@@ -2889,12 +2895,6 @@
         "player_id": "5106058"
       },
       {
-        "team": "Sacramento Kings",
-        "number": "24",
-        "player": "Isaiah Stevens",
-        "player_id": "4432117"
-      },
-      {
         "team": "San Antonio Spurs",
         "number": "40",
         "player": "Harrison Barnes",
@@ -3815,13 +3815,13 @@
     ],
     "games": [
       {
-        "game_id": "401898716",
-        "matchup": "SAC vs LAL",
+        "game_id": "401898388",
+        "matchup": "ATL vs MEM",
         "score": "0 - 0"
       },
       {
-        "game_id": "401898388",
-        "matchup": "ATL vs MEM",
+        "game_id": "401898716",
+        "matchup": "SAC vs LAL",
         "score": "0 - 0"
       }
     ]
