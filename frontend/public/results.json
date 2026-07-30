@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:45:10.625213+00:00",
+  "generated_at": "2026-07-30T15:46:09.369663+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 1 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 1 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -3815,13 +3815,8 @@
     ],
     "games": [
       {
-        "game_id": "401898388",
-        "matchup": "ATL vs MEM",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898716",
-        "matchup": "SAC vs LAL",
+        "game_id": "401902644",
+        "matchup": "TOR vs MIA",
         "score": "0 - 0"
       }
     ]
