@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:46:09.369663+00:00",
+  "generated_at": "2026-07-31T15:56:09.725664+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -3727,12 +3727,6 @@
         "number": "",
         "player": "Dorian Finney-Smith",
         "player_id": "2578185"
-      },
-      {
-        "team": "Charlotte Hornets",
-        "number": "16",
-        "player": "Mouhamadou Gueye",
-        "player_id": "4592933"
       },
       {
         "team": "Charlotte Hornets",
