@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T14:52:50.249014+00:00",
+  "generated_at": "2026-08-02T14:54:36.244361+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -2785,6 +2785,12 @@
         "number": "17",
         "player": "Shaedon Sharpe",
         "player_id": "4914336"
+      },
+      {
+        "team": "Portland Trail Blazers",
+        "number": "20",
+        "player": "Jeremy Sochan",
+        "player_id": "4610139"
       },
       {
         "team": "Portland Trail Blazers",
