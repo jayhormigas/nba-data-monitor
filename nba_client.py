@@ -49,7 +49,7 @@ MAX_RETRIES     = 3    # total attempts per call before raising the error
 
 def _with_retries(make_call):
     """
-    Run a network call, retrying a couple of times on transient timeouts.
+    Run a network call, retrying on transient failures.
 
     `make_call` is a zero-argument function that performs one attempt. If every
     attempt fails we re-raise the last error so the caller can decide what to do
@@ -66,16 +66,18 @@ def _with_retries(make_call):
                 print(f"  ESPN request timed out (attempt {attempt}/{MAX_RETRIES}) - retrying...")
                 time.sleep(2)
         except requests.exceptions.HTTPError as e:
-            # Server-side errors (5xx) are transient blips worth retrying.
-            # Client errors (4xx) mean the request itself is wrong and won't
-            # heal on retry, so re-raise those immediately.
+            # 5xx errors are transient blips worth retrying. 403 is also
+            # retried, since ESPN sometimes blocks cloud runner IPs and a
+            # later attempt can get through. Other 4xx errors mean the
+            # request itself is wrong, so re-raise those immediately.
             status = e.response.status_code if e.response is not None else 0
-            if status < 500:
+            if status < 500 and status != 403:
                 raise
             last_error = e
             if attempt < MAX_RETRIES:
-                print(f"  ESPN returned {status} (attempt {attempt}/{MAX_RETRIES}) - retrying...")
-                time.sleep(2)
+                wait = 5 * attempt
+                print(f"  ESPN returned {status} (attempt {attempt}/{MAX_RETRIES}) - retrying in {wait}s...")
+                time.sleep(wait)
     raise last_error
 
 
