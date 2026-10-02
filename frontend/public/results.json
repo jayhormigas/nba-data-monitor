@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:13:55.669175+00:00",
+  "generated_at": "2026-10-02T18:49:58.727317+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -1138,18 +1138,6 @@
       },
       {
         "team": "Chicago Bulls",
-        "number": "15",
-        "player": "Peter Suder",
-        "player_id": "5106674"
-      },
-      {
-        "team": "Chicago Bulls",
-        "number": "0",
-        "player": "Marquel Sutton",
-        "player_id": "5107264"
-      },
-      {
-        "team": "Chicago Bulls",
         "number": "5",
         "player": "Dailyn Swain",
         "player_id": "4848625"
@@ -1384,6 +1372,12 @@
       },
       {
         "team": "Denver Nuggets",
+        "number": "",
+        "player": "Ryan Nembhard",
+        "player_id": "4433629"
+      },
+      {
+        "team": "Denver Nuggets",
         "number": "22",
         "player": "Zeke Nnaji",
         "player_id": "4431690"
@@ -1549,12 +1543,6 @@
         "number": "30",
         "player": "Clint Capela",
         "player_id": "3102529"
-      },
-      {
-        "team": "Houston Rockets",
-        "number": "00",
-        "player": "Rafael Castro",
-        "player_id": "4684443"
       },
       {
         "team": "Houston Rockets",
