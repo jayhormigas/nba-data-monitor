@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:41:38.307472+00:00",
+  "generated_at": "2026-10-04T17:55:28.120058+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 1 game IDs are unique"
+      "message": "All 2 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 1 games have exactly 2 teams"
+      "message": "All 2 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -361,6 +361,12 @@
     ],
     "standings": [
       {
+        "team": "Toronto Raptors",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
+      },
+      {
         "team": "Boston Celtics",
         "wins": 0,
         "losses": 0,
@@ -380,12 +386,6 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
-        "team": "Toronto Raptors",
         "wins": 0,
         "losses": 0,
         "win_pct": 0.0
@@ -427,12 +427,6 @@
         "win_pct": 0.0
       },
       {
-        "team": "Miami Heat",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
         "team": "Orlando Magic",
         "wins": 0,
         "losses": 0,
@@ -449,6 +443,12 @@
         "wins": 0,
         "losses": 0,
         "win_pct": 0.0
+      },
+      {
+        "team": "Miami Heat",
+        "wins": 1,
+        "losses": 0,
+        "win_pct": 1.0
       },
       {
         "team": "Denver Nuggets",
@@ -1900,13 +1900,13 @@
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "4",
         "player": "Ryan Conwell",
         "player_id": "5107157"
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "24",
         "player": "Tre Donaldson",
         "player_id": "4837356"
       },
@@ -1930,7 +1930,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "14",
         "player": "J'Vonne Hadley",
         "player_id": "4702784"
       },
@@ -1960,7 +1960,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "19",
         "player": "Bez Mbeng",
         "player_id": "4898237"
       },
@@ -1978,7 +1978,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "25",
         "player": "Lester Quinones",
         "player_id": "4431720"
       },
@@ -1990,13 +1990,19 @@
       },
       {
         "team": "Miami Heat",
+        "number": "20",
+        "player": "Ian Schieffelin",
+        "player_id": "4693954"
+      },
+      {
+        "team": "Miami Heat",
         "number": "12",
         "player": "Dru Smith",
         "player_id": "4066993"
       },
       {
         "team": "Miami Heat",
-        "number": "",
+        "number": "11",
         "player": "Klay Thompson",
         "player_id": "6475"
       },
@@ -3472,9 +3478,15 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "",
+        "number": "8",
         "player": "Jaden Bradley",
         "player_id": "4432737"
+      },
+      {
+        "team": "Toronto Raptors",
+        "number": "25",
+        "player": "Nimari Burnett",
+        "player_id": "4433138"
       },
       {
         "team": "Toronto Raptors",
@@ -3508,7 +3520,7 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "",
+        "number": "11",
         "player": "Tyreke Key",
         "player_id": "4279143"
       },
@@ -4163,8 +4175,13 @@
     ],
     "games": [
       {
-        "game_id": "401902644",
-        "matchup": "TOR vs MIA",
+        "game_id": "401914127",
+        "matchup": "DEN vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401918010",
+        "matchup": "LAC vs GS",
         "score": "0 - 0"
       }
     ]
