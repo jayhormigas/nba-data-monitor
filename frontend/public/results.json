@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:55:28.120058+00:00",
+  "generated_at": "2026-10-05T21:18:21.060218+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 5 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 5 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -453,7 +453,7 @@
       {
         "team": "Denver Nuggets",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "win_pct": 0.0
       },
       {
@@ -476,20 +476,14 @@
       },
       {
         "team": "Utah Jazz",
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
-        "win_pct": 0.0
+        "win_pct": 1.0
       },
       {
         "team": "Golden State Warriors",
         "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
-        "team": "LA Clippers",
-        "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "win_pct": 0.0
       },
       {
@@ -509,6 +503,12 @@
         "wins": 0,
         "losses": 0,
         "win_pct": 0.0
+      },
+      {
+        "team": "LA Clippers",
+        "wins": 1,
+        "losses": 0,
+        "win_pct": 1.0
       },
       {
         "team": "New Orleans Pelicans",
@@ -3604,6 +3604,12 @@
       },
       {
         "team": "Utah Jazz",
+        "number": "16",
+        "player": "Terrell Brown Jr.",
+        "player_id": "4395997"
+      },
+      {
+        "team": "Utah Jazz",
         "number": "8",
         "player": "Isaiah Collier",
         "player_id": "4683766"
@@ -4175,13 +4181,28 @@
     ],
     "games": [
       {
-        "game_id": "401914127",
-        "matchup": "DEN vs UTAH",
+        "game_id": "401898388",
+        "matchup": "ATL vs MEM",
         "score": "0 - 0"
       },
       {
-        "game_id": "401918010",
-        "matchup": "LAC vs GS",
+        "game_id": "401908947",
+        "matchup": "DET vs PHX",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401914101",
+        "matchup": "PHI vs NY",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401914102",
+        "matchup": "MIL vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898716",
+        "matchup": "SAC vs LAL",
         "score": "0 - 0"
       }
     ]
