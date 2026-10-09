@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T19:34:57.223939+00:00",
+  "generated_at": "2026-10-09T19:09:35.473587+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 6 game IDs are unique"
+      "message": "All 2 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 6 games have exactly 2 teams"
+      "message": "All 2 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -363,7 +363,7 @@
       {
         "team": "New York Knicks",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "win_pct": 0.0
       },
       {
@@ -373,22 +373,28 @@
         "win_pct": 0.0
       },
       {
+        "team": "Philadelphia 76ers",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
+      },
+      {
         "team": "Boston Celtics",
-        "wins": 0,
+        "wins": 1,
         "losses": 0,
-        "win_pct": 0.0
+        "win_pct": 1.0
       },
       {
         "team": "Brooklyn Nets",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "win_pct": 1.0
       },
       {
-        "team": "Philadelphia 76ers",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
+        "team": "Cleveland Cavaliers",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
       },
       {
         "team": "Milwaukee Bucks",
@@ -397,19 +403,7 @@
         "win_pct": 0.5
       },
       {
-        "team": "Cleveland Cavaliers",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
         "team": "Indiana Pacers",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
-      },
-      {
-        "team": "Chicago Bulls",
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
@@ -421,10 +415,10 @@
         "win_pct": 1.0
       },
       {
-        "team": "Atlanta Hawks",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
+        "team": "Chicago Bulls",
+        "wins": 1,
+        "losses": 0,
+        "win_pct": 1.0
       },
       {
         "team": "Charlotte Hornets",
@@ -433,20 +427,26 @@
         "win_pct": 0.0
       },
       {
-        "team": "Washington Wizards",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
+        "team": "Atlanta Hawks",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
       },
       {
-        "team": "Miami Heat",
+        "team": "Orlando Magic",
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
       },
       {
-        "team": "Orlando Magic",
+        "team": "Washington Wizards",
         "wins": 1,
+        "losses": 0,
+        "win_pct": 1.0
+      },
+      {
+        "team": "Miami Heat",
+        "wins": 2,
         "losses": 0,
         "win_pct": 1.0
       },
@@ -463,13 +463,13 @@
         "win_pct": 0.5
       },
       {
-        "team": "Utah Jazz",
+        "team": "Denver Nuggets",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Denver Nuggets",
+        "team": "Utah Jazz",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -487,22 +487,16 @@
         "win_pct": 0.0
       },
       {
+        "team": "Sacramento Kings",
+        "wins": 0,
+        "losses": 2,
+        "win_pct": 0.0
+      },
+      {
         "team": "Golden State Warriors",
         "wins": 1,
         "losses": 2,
         "win_pct": 0.33333334
-      },
-      {
-        "team": "Sacramento Kings",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
-      },
-      {
-        "team": "Los Angeles Lakers",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
       },
       {
         "team": "LA Clippers",
@@ -511,31 +505,37 @@
         "win_pct": 1.0
       },
       {
+        "team": "Los Angeles Lakers",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
+      },
+      {
+        "team": "San Antonio Spurs",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
+      },
+      {
+        "team": "Dallas Mavericks",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
+      },
+      {
         "team": "Memphis Grizzlies",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Dallas Mavericks",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
+        "team": "New Orleans Pelicans",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
       },
       {
         "team": "Houston Rockets",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
-        "team": "San Antonio Spurs",
-        "wins": 0,
-        "losses": 0,
-        "win_pct": 0.0
-      },
-      {
-        "team": "New Orleans Pelicans",
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
@@ -1942,12 +1942,6 @@
       },
       {
         "team": "Miami Heat",
-        "number": "14",
-        "player": "J'Vonne Hadley",
-        "player_id": "4702784"
-      },
-      {
-        "team": "Miami Heat",
         "number": "10",
         "player": "Tim Hardaway Jr.",
         "player_id": "2528210"
@@ -1966,9 +1960,21 @@
       },
       {
         "team": "Miami Heat",
+        "number": "",
+        "player": "Kylor Kelley",
+        "player_id": "3950760"
+      },
+      {
+        "team": "Miami Heat",
         "number": "9",
         "player": "Pelle Larsson",
         "player_id": "4601025"
+      },
+      {
+        "team": "Miami Heat",
+        "number": "",
+        "player": "Gabe Madsen",
+        "player_id": "4432753"
       },
       {
         "team": "Miami Heat",
@@ -1987,12 +1993,6 @@
         "number": "95",
         "player": "Bobby Portis",
         "player_id": "3064482"
-      },
-      {
-        "team": "Miami Heat",
-        "number": "25",
-        "player": "Lester Quinones",
-        "player_id": "4431720"
       },
       {
         "team": "Miami Heat",
@@ -2416,7 +2416,7 @@
       },
       {
         "team": "New York Knicks",
-        "number": "13",
+        "number": "18",
         "player": "Tony Bradley",
         "player_id": "4065673"
       },
@@ -3904,6 +3904,12 @@
       },
       {
         "team": "Washington Wizards",
+        "number": "17",
+        "player": "Skal Labissiere",
+        "player_id": "3936296"
+      },
+      {
+        "team": "Washington Wizards",
         "number": "24",
         "player": "Chris Livingston",
         "player_id": "4433622"
@@ -4199,33 +4205,13 @@
     ],
     "games": [
       {
-        "game_id": "401898392",
-        "matchup": "CLE vs BOS",
-        "score": "0 - 0"
+        "game_id": "401898395",
+        "matchup": "DAL vs HOU",
+        "score": "117 - 135"
       },
       {
-        "game_id": "401898393",
-        "matchup": "MIA vs NO",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401901823",
-        "matchup": "BKN vs PHI",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401906508",
-        "matchup": "NY vs WSH",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898394",
-        "matchup": "SA vs ATL",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898717",
-        "matchup": "LAL vs SAC",
+        "game_id": "401908940",
+        "matchup": "CHI vs MEM",
         "score": "0 - 0"
       }
     ]
