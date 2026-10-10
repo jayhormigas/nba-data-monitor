@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:09:35.473587+00:00",
+  "generated_at": "2026-10-10T18:07:49.466485+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 7 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 7 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -397,6 +397,12 @@
         "win_pct": 0.0
       },
       {
+        "team": "Chicago Bulls",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
+      },
+      {
         "team": "Milwaukee Bucks",
         "wins": 1,
         "losses": 1,
@@ -410,12 +416,6 @@
       },
       {
         "team": "Detroit Pistons",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
-      },
-      {
-        "team": "Chicago Bulls",
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
@@ -463,13 +463,13 @@
         "win_pct": 0.5
       },
       {
-        "team": "Denver Nuggets",
+        "team": "Utah Jazz",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Utah Jazz",
+        "team": "Denver Nuggets",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -523,12 +523,6 @@
         "win_pct": 0.0
       },
       {
-        "team": "Memphis Grizzlies",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
-      },
-      {
         "team": "New Orleans Pelicans",
         "wins": 1,
         "losses": 1,
@@ -539,6 +533,12 @@
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
+      },
+      {
+        "team": "Memphis Grizzlies",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
       }
     ],
     "rosters": [
@@ -1054,7 +1054,7 @@
       },
       {
         "team": "Chicago Bulls",
-        "number": "",
+        "number": "20",
         "player": "Jalen Bridges",
         "player_id": "4432946"
       },
@@ -1090,13 +1090,13 @@
       },
       {
         "team": "Chicago Bulls",
-        "number": "",
+        "number": "15",
         "player": "Jordan Hawkins",
         "player_id": "4683750"
       },
       {
         "team": "Chicago Bulls",
-        "number": "",
+        "number": "7",
         "player": "Buddy Hield",
         "player_id": "2990984"
       },
@@ -1780,6 +1780,12 @@
       },
       {
         "team": "Los Angeles Lakers",
+        "number": "",
+        "player": "Rafael Castro",
+        "player_id": "4684443"
+      },
+      {
+        "team": "Los Angeles Lakers",
         "number": "77",
         "player": "Luka Doncic",
         "player_id": "3945274"
@@ -1819,12 +1825,6 @@
         "number": "4",
         "player": "Dalton Knecht",
         "player_id": "4897943"
-      },
-      {
-        "team": "Los Angeles Lakers",
-        "number": "45",
-        "player": "William Kyle III",
-        "player_id": "5107258"
       },
       {
         "team": "Los Angeles Lakers",
@@ -4205,13 +4205,38 @@
     ],
     "games": [
       {
-        "game_id": "401898395",
-        "matchup": "DAL vs HOU",
-        "score": "117 - 135"
+        "game_id": "401902645",
+        "matchup": "TOR vs LAC",
+        "score": "0 - 0"
       },
       {
-        "game_id": "401908940",
-        "matchup": "CHI vs MEM",
+        "game_id": "401898396",
+        "matchup": "IND vs ATL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401906510",
+        "matchup": "WSH vs DET",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898397",
+        "matchup": "MIA vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898398",
+        "matchup": "BOS vs PHI",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898399",
+        "matchup": "GS vs SAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898720",
+        "matchup": "PHX vs SA",
         "score": "0 - 0"
       }
     ]
