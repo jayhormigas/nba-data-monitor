@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T18:07:49.466485+00:00",
+  "generated_at": "2026-10-11T18:32:01.360150+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 7 game IDs are unique"
+      "message": "All 4 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 7 games have exactly 2 teams"
+      "message": "All 4 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -367,20 +367,20 @@
         "win_pct": 0.0
       },
       {
-        "team": "Toronto Raptors",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
+        "team": "Philadelphia 76ers",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 0.33333334
       },
       {
-        "team": "Philadelphia 76ers",
+        "team": "Toronto Raptors",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
         "team": "Boston Celtics",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "win_pct": 1.0
       },
@@ -397,7 +397,19 @@
         "win_pct": 0.0
       },
       {
+        "team": "Indiana Pacers",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
+      },
+      {
         "team": "Chicago Bulls",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
+      },
+      {
+        "team": "Detroit Pistons",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -409,28 +421,10 @@
         "win_pct": 0.5
       },
       {
-        "team": "Indiana Pacers",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
-      },
-      {
-        "team": "Detroit Pistons",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
-      },
-      {
         "team": "Charlotte Hornets",
         "wins": 0,
         "losses": 1,
         "win_pct": 0.0
-      },
-      {
-        "team": "Atlanta Hawks",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
       },
       {
         "team": "Orlando Magic",
@@ -439,13 +433,19 @@
         "win_pct": 1.0
       },
       {
-        "team": "Washington Wizards",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
+        "team": "Miami Heat",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
       },
       {
-        "team": "Miami Heat",
+        "team": "Atlanta Hawks",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
+      },
+      {
+        "team": "Washington Wizards",
         "wins": 2,
         "losses": 0,
         "win_pct": 1.0
@@ -457,7 +457,7 @@
         "win_pct": 0.0
       },
       {
-        "team": "Minnesota Timberwolves",
+        "team": "Denver Nuggets",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -469,40 +469,40 @@
         "win_pct": 0.5
       },
       {
-        "team": "Denver Nuggets",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
-      },
-      {
         "team": "Portland Trail Blazers",
         "wins": 1,
         "losses": 0,
         "win_pct": 1.0
       },
       {
-        "team": "Phoenix Suns",
-        "wins": 0,
-        "losses": 2,
-        "win_pct": 0.0
+        "team": "Minnesota Timberwolves",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
       },
       {
         "team": "Sacramento Kings",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "win_pct": 0.0
       },
       {
-        "team": "Golden State Warriors",
+        "team": "Phoenix Suns",
         "wins": 1,
         "losses": 2,
         "win_pct": 0.33333334
       },
       {
+        "team": "Golden State Warriors",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 0.5
+      },
+      {
         "team": "LA Clippers",
         "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
+        "losses": 1,
+        "win_pct": 0.5
       },
       {
         "team": "Los Angeles Lakers",
@@ -513,17 +513,11 @@
       {
         "team": "San Antonio Spurs",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "win_pct": 0.0
       },
       {
         "team": "Dallas Mavericks",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
-      },
-      {
-        "team": "New Orleans Pelicans",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -531,8 +525,14 @@
       {
         "team": "Houston Rockets",
         "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
+        "losses": 1,
+        "win_pct": 0.5
+      },
+      {
+        "team": "New Orleans Pelicans",
+        "wins": 1,
+        "losses": 1,
+        "win_pct": 0.5
       },
       {
         "team": "Memphis Grizzlies",
@@ -1720,6 +1720,12 @@
       },
       {
         "team": "Los Angeles Clippers",
+        "number": "26",
+        "player": "Fletcher Loyer",
+        "player_id": "5105853"
+      },
+      {
+        "team": "Los Angeles Clippers",
         "number": "12",
         "player": "Nick Martinelli",
         "player_id": "5105832"
@@ -1759,6 +1765,12 @@
         "number": "31",
         "player": "Max Strus",
         "player_id": "4065778"
+      },
+      {
+        "team": "Los Angeles Clippers",
+        "number": "19",
+        "player": "Jahmyl Telfort",
+        "player_id": "4702785"
       },
       {
         "team": "Los Angeles Clippers",
@@ -1942,6 +1954,12 @@
       },
       {
         "team": "Miami Heat",
+        "number": "14",
+        "player": "J'Vonne Hadley",
+        "player_id": "4702784"
+      },
+      {
+        "team": "Miami Heat",
         "number": "10",
         "player": "Tim Hardaway Jr.",
         "player_id": "2528210"
@@ -1996,6 +2014,12 @@
       },
       {
         "team": "Miami Heat",
+        "number": "25",
+        "player": "Lester Quinones",
+        "player_id": "4431720"
+      },
+      {
+        "team": "Miami Heat",
         "number": "8",
         "player": "Nick Richards",
         "player_id": "4278076"
@@ -2011,6 +2035,12 @@
         "number": "12",
         "player": "Dru Smith",
         "player_id": "4066993"
+      },
+      {
+        "team": "Miami Heat",
+        "number": "",
+        "player": "Dennis Smith Jr.",
+        "player_id": "4065697"
       },
       {
         "team": "Miami Heat",
@@ -3520,6 +3550,12 @@
       },
       {
         "team": "Toronto Raptors",
+        "number": "",
+        "player": "Tyson Degenhart",
+        "player_id": "4898260"
+      },
+      {
+        "team": "Toronto Raptors",
         "number": "22",
         "player": "Allen Graves",
         "player_id": "5149115"
@@ -3529,6 +3565,12 @@
         "number": "24",
         "player": "Chucky Hepburn",
         "player_id": "4590360"
+      },
+      {
+        "team": "Toronto Raptors",
+        "number": "44",
+        "player": "Andre Jackson Jr.",
+        "player_id": "4432190"
       },
       {
         "team": "Toronto Raptors",
@@ -3892,6 +3934,12 @@
       },
       {
         "team": "Washington Wizards",
+        "number": "",
+        "player": "Jazian Gortman",
+        "player_id": "4708972"
+      },
+      {
+        "team": "Washington Wizards",
         "number": "12",
         "player": "Tre Johnson",
         "player_id": "5238230"
@@ -4205,38 +4253,23 @@
     ],
     "games": [
       {
-        "game_id": "401902645",
-        "matchup": "TOR vs LAC",
+        "game_id": "401898400",
+        "matchup": "HOU vs DAL",
+        "score": "115 - 132"
+      },
+      {
+        "game_id": "401898401",
+        "matchup": "CLE vs ORL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401898396",
-        "matchup": "IND vs ATL",
+        "game_id": "401901821",
+        "matchup": "CHA vs MIL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401906510",
-        "matchup": "WSH vs DET",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898397",
-        "matchup": "MIA vs MIN",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898398",
-        "matchup": "BOS vs PHI",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898399",
-        "matchup": "GS vs SAC",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898720",
-        "matchup": "PHX vs SA",
+        "game_id": "401908941",
+        "matchup": "DEN vs CHI",
         "score": "0 - 0"
       }
     ]
