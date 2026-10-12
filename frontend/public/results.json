@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:32:01.360150+00:00",
+  "generated_at": "2026-10-12T21:55:46.800391+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 4 game IDs are unique"
+      "message": "All 5 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 4 games have exactly 2 teams"
+      "message": "All 5 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -391,19 +391,25 @@
         "win_pct": 1.0
       },
       {
-        "team": "Cleveland Cavaliers",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
+        "team": "Chicago Bulls",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 0.33333334
       },
       {
-        "team": "Indiana Pacers",
+        "team": "Milwaukee Bucks",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 0.33333334
+      },
+      {
+        "team": "Cleveland Cavaliers",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Chicago Bulls",
+        "team": "Indiana Pacers",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -415,22 +421,16 @@
         "win_pct": 0.5
       },
       {
-        "team": "Milwaukee Bucks",
+        "team": "Charlotte Hornets",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Charlotte Hornets",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
-      },
-      {
         "team": "Orlando Magic",
         "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
+        "losses": 1,
+        "win_pct": 0.5
       },
       {
         "team": "Miami Heat",
@@ -457,12 +457,6 @@
         "win_pct": 0.0
       },
       {
-        "team": "Denver Nuggets",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
-      },
-      {
         "team": "Utah Jazz",
         "wins": 1,
         "losses": 1,
@@ -476,6 +470,12 @@
       },
       {
         "team": "Minnesota Timberwolves",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 0.6666667
+      },
+      {
+        "team": "Denver Nuggets",
         "wins": 2,
         "losses": 1,
         "win_pct": 0.6666667
@@ -517,13 +517,13 @@
         "win_pct": 0.0
       },
       {
-        "team": "Dallas Mavericks",
+        "team": "Houston Rockets",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
       },
       {
-        "team": "Houston Rockets",
+        "team": "Dallas Mavericks",
         "wins": 1,
         "losses": 1,
         "win_pct": 0.5
@@ -886,6 +886,12 @@
       },
       {
         "team": "Cleveland Cavaliers",
+        "number": "2",
+        "player": "Jaxson Robinson",
+        "player_id": "4702528"
+      },
+      {
+        "team": "Cleveland Cavaliers",
         "number": "15",
         "player": "Meleek Thomas",
         "player_id": "5041951"
@@ -913,6 +919,12 @@
         "number": "8",
         "player": "Peyton Watson",
         "player_id": "4576087"
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "number": "30",
+        "player": "Noam Yaacov",
+        "player_id": "5457832"
       },
       {
         "team": "New Orleans Pelicans",
@@ -1150,7 +1162,7 @@
       },
       {
         "team": "Chicago Bulls",
-        "number": "",
+        "number": "99",
         "player": "Isaiah Stevens",
         "player_id": "4432117"
       },
@@ -1390,7 +1402,7 @@
       },
       {
         "team": "Denver Nuggets",
-        "number": "",
+        "number": "9",
         "player": "Ryan Nembhard",
         "player_id": "4433629"
       },
@@ -2002,7 +2014,7 @@
       },
       {
         "team": "Miami Heat",
-        "number": "45",
+        "number": "2",
         "player": "Davion Mitchell",
         "player_id": "4278053"
       },
@@ -2062,7 +2074,7 @@
       },
       {
         "team": "Milwaukee Bucks",
-        "number": "",
+        "number": "22",
         "player": "Johni Broome",
         "player_id": "4433569"
       },
@@ -2071,6 +2083,12 @@
         "number": "0",
         "player": "Brayden Burries",
         "player_id": "5082206"
+      },
+      {
+        "team": "Milwaukee Bucks",
+        "number": "27",
+        "player": "John Butler Jr.",
+        "player_id": "4432588"
       },
       {
         "team": "Milwaukee Bucks",
@@ -2647,6 +2665,12 @@
         "number": "11",
         "player": "Jase Richardson",
         "player_id": "5239561"
+      },
+      {
+        "team": "Orlando Magic",
+        "number": "",
+        "player": "Mike Sharavjamts",
+        "player_id": "5105875"
       },
       {
         "team": "Orlando Magic",
@@ -4253,23 +4277,28 @@
     ],
     "games": [
       {
-        "game_id": "401898400",
-        "matchup": "HOU vs DAL",
-        "score": "115 - 132"
+        "game_id": "401914130",
+        "matchup": "POR vs LON",
+        "score": "107 - 53"
       },
       {
-        "game_id": "401898401",
-        "matchup": "CLE vs ORL",
+        "game_id": "401898402",
+        "matchup": "ATL vs OKC",
         "score": "0 - 0"
       },
       {
-        "game_id": "401901821",
-        "matchup": "CHA vs MIL",
+        "game_id": "401901824",
+        "matchup": "WSH vs BKN",
         "score": "0 - 0"
       },
       {
-        "game_id": "401908941",
-        "matchup": "DEN vs CHI",
+        "game_id": "401914124",
+        "matchup": "NY vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898721",
+        "matchup": "UTAH vs SA",
         "score": "0 - 0"
       }
     ]
