@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:55:46.800391+00:00",
+  "generated_at": "2026-10-13T19:59:48.313440+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -363,7 +363,7 @@
       {
         "team": "New York Knicks",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "win_pct": 0.0
       },
       {
@@ -386,7 +386,7 @@
       },
       {
         "team": "Brooklyn Nets",
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "win_pct": 1.0
       },
@@ -439,37 +439,25 @@
         "win_pct": 0.6666667
       },
       {
-        "team": "Atlanta Hawks",
+        "team": "Washington Wizards",
         "wins": 2,
         "losses": 1,
         "win_pct": 0.6666667
       },
       {
-        "team": "Washington Wizards",
-        "wins": 2,
-        "losses": 0,
-        "win_pct": 1.0
+        "team": "Atlanta Hawks",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 0.75
       },
       {
         "team": "Oklahoma City Thunder",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "win_pct": 0.0
       },
       {
         "team": "Utah Jazz",
-        "wins": 1,
-        "losses": 1,
-        "win_pct": 0.5
-      },
-      {
-        "team": "Portland Trail Blazers",
-        "wins": 1,
-        "losses": 0,
-        "win_pct": 1.0
-      },
-      {
-        "team": "Minnesota Timberwolves",
         "wins": 2,
         "losses": 1,
         "win_pct": 0.6666667
@@ -479,6 +467,18 @@
         "wins": 2,
         "losses": 1,
         "win_pct": 0.6666667
+      },
+      {
+        "team": "Portland Trail Blazers",
+        "wins": 2,
+        "losses": 0,
+        "win_pct": 1.0
+      },
+      {
+        "team": "Minnesota Timberwolves",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 0.75
       },
       {
         "team": "Sacramento Kings",
@@ -513,7 +513,7 @@
       {
         "team": "San Antonio Spurs",
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "win_pct": 0.0
       },
       {
@@ -631,6 +631,12 @@
         "number": "3",
         "player": "CJ McCollum",
         "player_id": "2490149"
+      },
+      {
+        "team": "Atlanta Hawks",
+        "number": "15",
+        "player": "Isaac McKneely",
+        "player_id": "4712845"
       },
       {
         "team": "Atlanta Hawks",
@@ -949,12 +955,6 @@
         "number": "0",
         "player": "Jeremiah Fears",
         "player_id": "5144091"
-      },
-      {
-        "team": "New Orleans Pelicans",
-        "number": "33",
-        "player": "Caleb Houstan",
-        "player_id": "4433623"
       },
       {
         "team": "New Orleans Pelicans",
@@ -1417,12 +1417,6 @@
         "number": "1",
         "player": "Julian Strawther",
         "player_id": "4432181"
-      },
-      {
-        "team": "Denver Nuggets",
-        "number": "4",
-        "player": "Lonnie Walker IV",
-        "player_id": "4277890"
       },
       {
         "team": "Denver Nuggets",
@@ -2284,7 +2278,7 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "number": "",
+        "number": "23",
         "player": "Norchad Omier",
         "player_id": "4702134"
       },
@@ -2329,6 +2323,12 @@
         "number": "34",
         "player": "Tyler Bilodeau",
         "player_id": "5105626"
+      },
+      {
+        "team": "Brooklyn Nets",
+        "number": "",
+        "player": "Dion Brown",
+        "player_id": "5107242"
       },
       {
         "team": "Brooklyn Nets",
@@ -3460,6 +3460,12 @@
       },
       {
         "team": "Oklahoma City Thunder",
+        "number": "16",
+        "player": "Robert McCray V",
+        "player_id": "4685802"
+      },
+      {
+        "team": "Oklahoma City Thunder",
         "number": "25",
         "player": "Ajay Mitchell",
         "player_id": "4900671"
@@ -3586,12 +3592,6 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "24",
-        "player": "Chucky Hepburn",
-        "player_id": "4590360"
-      },
-      {
-        "team": "Toronto Raptors",
         "number": "44",
         "player": "Andre Jackson Jr.",
         "player_id": "4432190"
@@ -3694,6 +3694,12 @@
       },
       {
         "team": "Utah Jazz",
+        "number": "16",
+        "player": "Terrell Brown Jr.",
+        "player_id": "4395997"
+      },
+      {
+        "team": "Utah Jazz",
         "number": "8",
         "player": "Isaiah Collier",
         "player_id": "4683766"
@@ -3706,7 +3712,7 @@
       },
       {
         "team": "Utah Jazz",
-        "number": "",
+        "number": "33",
         "player": "Taylor Funk",
         "player_id": "4278395"
       },
@@ -3781,6 +3787,12 @@
         "number": "28",
         "player": "Brice Sensabaugh",
         "player_id": "5105839"
+      },
+      {
+        "team": "Utah Jazz",
+        "number": "17",
+        "player": "Mohamed Wague",
+        "player_id": "5106293"
       },
       {
         "team": "Memphis Grizzlies",
@@ -4036,6 +4048,12 @@
       },
       {
         "team": "Washington Wizards",
+        "number": "31",
+        "player": "Alondes Williams",
+        "player_id": "4592216"
+      },
+      {
+        "team": "Washington Wizards",
         "number": "3",
         "player": "Trae Young",
         "player_id": "4277905"
@@ -4277,28 +4295,28 @@
     ],
     "games": [
       {
-        "game_id": "401914130",
-        "matchup": "POR vs LON",
-        "score": "107 - 53"
-      },
-      {
-        "game_id": "401898402",
-        "matchup": "ATL vs OKC",
+        "game_id": "401898403",
+        "matchup": "ORL vs CLE",
         "score": "0 - 0"
       },
       {
-        "game_id": "401901824",
-        "matchup": "WSH vs BKN",
+        "game_id": "401908944",
+        "matchup": "TOR vs NY",
         "score": "0 - 0"
       },
       {
-        "game_id": "401914124",
-        "matchup": "NY vs MIN",
+        "game_id": "401908621",
+        "matchup": "OKC vs IND",
         "score": "0 - 0"
       },
       {
-        "game_id": "401898721",
-        "matchup": "UTAH vs SA",
+        "game_id": "401898718",
+        "matchup": "LAL vs GS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401901826",
+        "matchup": "SAC vs POR",
         "score": "0 - 0"
       }
     ]
