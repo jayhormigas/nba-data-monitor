@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:56:18.439738+00:00",
+  "generated_at": "2026-10-16T17:44:52.275455+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 12 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 12 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -362,9 +362,9 @@
     "standings": [
       {
         "team": "New York Knicks",
-        "wins": 0,
+        "wins": 1,
         "losses": 4,
-        "win_pct": 0.0
+        "win_pct": 0.2
       },
       {
         "team": "Philadelphia 76ers",
@@ -375,8 +375,8 @@
       {
         "team": "Toronto Raptors",
         "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
+        "losses": 2,
+        "win_pct": 0.5
       },
       {
         "team": "Brooklyn Nets",
@@ -453,8 +453,8 @@
       {
         "team": "Oklahoma City Thunder",
         "wins": 1,
-        "losses": 3,
-        "win_pct": 0.25
+        "losses": 4,
+        "win_pct": 0.2
       },
       {
         "team": "Denver Nuggets",
@@ -523,13 +523,13 @@
         "win_pct": 0.33333334
       },
       {
-        "team": "Houston Rockets",
-        "wins": 1,
+        "team": "Memphis Grizzlies",
+        "wins": 2,
         "losses": 1,
-        "win_pct": 0.5
+        "win_pct": 0.6666667
       },
       {
-        "team": "Memphis Grizzlies",
+        "team": "Houston Rockets",
         "wins": 2,
         "losses": 1,
         "win_pct": 0.6666667
@@ -1615,6 +1615,12 @@
         "number": "17",
         "player": "Tari Eason",
         "player_id": "4433192"
+      },
+      {
+        "team": "Houston Rockets",
+        "number": "",
+        "player": "Cameron Matthews",
+        "player_id": "4432394"
       },
       {
         "team": "Houston Rockets",
@@ -3610,6 +3616,12 @@
       },
       {
         "team": "Toronto Raptors",
+        "number": "24",
+        "player": "Chucky Hepburn",
+        "player_id": "4590360"
+      },
+      {
+        "team": "Toronto Raptors",
         "number": "44",
         "player": "Andre Jackson Jr.",
         "player_id": "4432190"
@@ -3619,6 +3631,12 @@
         "number": "32",
         "player": "Trayce Jackson-Davis",
         "player_id": "4431684"
+      },
+      {
+        "team": "Toronto Raptors",
+        "number": "50",
+        "player": "Trey Jemison III",
+        "player_id": "4395623"
       },
       {
         "team": "Toronto Raptors",
@@ -4307,13 +4325,63 @@
     ],
     "games": [
       {
-        "game_id": "401908945",
-        "matchup": "NY vs TOR",
+        "game_id": "401898406",
+        "matchup": "ORL vs MIA",
         "score": "0 - 0"
       },
       {
-        "game_id": "401908622",
-        "matchup": "HOU vs OKC",
+        "game_id": "401898407",
+        "matchup": "PHI vs BOS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401908946",
+        "matchup": "DET vs TOR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401914126",
+        "matchup": "IND vs MIL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898408",
+        "matchup": "DAL vs ATL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898843",
+        "matchup": "SA vs SAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401901822",
+        "matchup": "MEM vs CHA",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401906509",
+        "matchup": "NO vs WSH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401908943",
+        "matchup": "CHI vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898409",
+        "matchup": "GS vs POR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401908948",
+        "matchup": "PHX vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401898719",
+        "matchup": "LAL vs DEN",
         "score": "0 - 0"
       }
     ]
