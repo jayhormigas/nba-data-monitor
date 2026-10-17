@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:44:52.275455+00:00",
+  "generated_at": "2026-10-17T16:45:15.099546+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 12 game IDs are unique"
+      "message": "All 3 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 12 games have exactly 2 teams"
+      "message": "All 3 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -369,14 +369,14 @@
       {
         "team": "Philadelphia 76ers",
         "wins": 1,
-        "losses": 2,
-        "win_pct": 0.33333334
+        "losses": 3,
+        "win_pct": 0.25
       },
       {
         "team": "Toronto Raptors",
         "wins": 2,
-        "losses": 2,
-        "win_pct": 0.5
+        "losses": 3,
+        "win_pct": 0.4
       },
       {
         "team": "Brooklyn Nets",
@@ -386,15 +386,21 @@
       },
       {
         "team": "Boston Celtics",
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
         "win_pct": 1.0
       },
       {
-        "team": "Milwaukee Bucks",
+        "team": "Indiana Pacers",
         "wins": 1,
         "losses": 3,
         "win_pct": 0.25
+      },
+      {
+        "team": "Milwaukee Bucks",
+        "wins": 2,
+        "losses": 3,
+        "win_pct": 0.4
       },
       {
         "team": "Cleveland Cavaliers",
@@ -403,52 +409,46 @@
         "win_pct": 0.33333334
       },
       {
-        "team": "Indiana Pacers",
-        "wins": 1,
+        "team": "Chicago Bulls",
+        "wins": 3,
         "losses": 2,
-        "win_pct": 0.33333334
+        "win_pct": 0.6
       },
       {
-        "team": "Chicago Bulls",
+        "team": "Detroit Pistons",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 0.75
+      },
+      {
+        "team": "Charlotte Hornets",
+        "wins": 1,
+        "losses": 3,
+        "win_pct": 0.25
+      },
+      {
+        "team": "Washington Wizards",
         "wins": 2,
         "losses": 2,
         "win_pct": 0.5
       },
       {
-        "team": "Detroit Pistons",
-        "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
-      },
-      {
-        "team": "Charlotte Hornets",
-        "wins": 1,
+        "team": "Miami Heat",
+        "wins": 3,
         "losses": 2,
-        "win_pct": 0.33333334
-      },
-      {
-        "team": "Washington Wizards",
-        "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
+        "win_pct": 0.6
       },
       {
         "team": "Orlando Magic",
-        "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
-      },
-      {
-        "team": "Miami Heat",
         "wins": 3,
         "losses": 1,
         "win_pct": 0.75
       },
       {
         "team": "Atlanta Hawks",
-        "wins": 3,
+        "wins": 4,
         "losses": 1,
-        "win_pct": 0.75
+        "win_pct": 0.8
       },
       {
         "team": "Oklahoma City Thunder",
@@ -457,46 +457,46 @@
         "win_pct": 0.2
       },
       {
-        "team": "Denver Nuggets",
-        "wins": 2,
-        "losses": 2,
+        "team": "Minnesota Timberwolves",
+        "wins": 3,
+        "losses": 3,
         "win_pct": 0.5
       },
       {
-        "team": "Utah Jazz",
-        "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
-      },
-      {
-        "team": "Minnesota Timberwolves",
+        "team": "Denver Nuggets",
         "wins": 3,
         "losses": 2,
         "win_pct": 0.6
       },
       {
+        "team": "Utah Jazz",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 0.75
+      },
+      {
         "team": "Portland Trail Blazers",
         "wins": 3,
-        "losses": 0,
-        "win_pct": 1.0
+        "losses": 1,
+        "win_pct": 0.75
       },
       {
         "team": "Sacramento Kings",
         "wins": 0,
-        "losses": 4,
+        "losses": 5,
         "win_pct": 0.0
       },
       {
         "team": "Phoenix Suns",
         "wins": 1,
-        "losses": 3,
-        "win_pct": 0.25
+        "losses": 4,
+        "win_pct": 0.2
       },
       {
         "team": "Los Angeles Lakers",
         "wins": 2,
-        "losses": 2,
-        "win_pct": 0.5
+        "losses": 3,
+        "win_pct": 0.4
       },
       {
         "team": "LA Clippers",
@@ -506,27 +506,21 @@
       },
       {
         "team": "Golden State Warriors",
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
-        "win_pct": 0.6
+        "win_pct": 0.6666667
       },
       {
-        "team": "San Antonio Spurs",
+        "team": "Dallas Mavericks",
         "wins": 1,
         "losses": 3,
         "win_pct": 0.25
       },
       {
-        "team": "Dallas Mavericks",
-        "wins": 1,
-        "losses": 2,
-        "win_pct": 0.33333334
-      },
-      {
-        "team": "Memphis Grizzlies",
+        "team": "San Antonio Spurs",
         "wins": 2,
-        "losses": 1,
-        "win_pct": 0.6666667
+        "losses": 3,
+        "win_pct": 0.4
       },
       {
         "team": "Houston Rockets",
@@ -535,10 +529,16 @@
         "win_pct": 0.6666667
       },
       {
-        "team": "New Orleans Pelicans",
-        "wins": 2,
+        "team": "Memphis Grizzlies",
+        "wins": 3,
         "losses": 1,
-        "win_pct": 0.6666667
+        "win_pct": 0.75
+      },
+      {
+        "team": "New Orleans Pelicans",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 0.75
       }
     ],
     "rosters": [
@@ -637,6 +637,12 @@
         "number": "3",
         "player": "CJ McCollum",
         "player_id": "2490149"
+      },
+      {
+        "team": "Atlanta Hawks",
+        "number": "15",
+        "player": "Isaac McKneely",
+        "player_id": "4712845"
       },
       {
         "team": "Atlanta Hawks",
@@ -952,12 +958,6 @@
       },
       {
         "team": "New Orleans Pelicans",
-        "number": "33",
-        "player": "Caleb Houstan",
-        "player_id": "4433623"
-      },
-      {
-        "team": "New Orleans Pelicans",
         "number": "14",
         "player": "AJ Johnson",
         "player_id": "5170947"
@@ -1192,6 +1192,12 @@
       },
       {
         "team": "Dallas Mavericks",
+        "number": "",
+        "player": "Quincy Acy",
+        "player_id": "6576"
+      },
+      {
+        "team": "Dallas Mavericks",
         "number": "34",
         "player": "Santi Aldama",
         "player_id": "4593125"
@@ -1219,12 +1225,6 @@
         "number": "55",
         "player": "Sergio de Larrea",
         "player_id": "5279129"
-      },
-      {
-        "team": "Dallas Mavericks",
-        "number": "",
-        "player": "Jorge Diaz Graham",
-        "player_id": "5105411"
       },
       {
         "team": "Dallas Mavericks",
@@ -1498,6 +1498,12 @@
       },
       {
         "team": "Golden State Warriors",
+        "number": "26",
+        "player": "Miles Kelly",
+        "player_id": "4696317"
+      },
+      {
+        "team": "Golden State Warriors",
         "number": "1",
         "player": "Yaxel Lendeborg",
         "player_id": "5175737"
@@ -1591,6 +1597,12 @@
         "number": "30",
         "player": "Clint Capela",
         "player_id": "3102529"
+      },
+      {
+        "team": "Houston Rockets",
+        "number": "19",
+        "player": "Tyson Chandler",
+        "player_id": "984"
       },
       {
         "team": "Houston Rockets",
@@ -1930,6 +1942,12 @@
       },
       {
         "team": "Los Angeles Lakers",
+        "number": "",
+        "player": "Aniwaniwa Tait-Jones",
+        "player_id": "4711203"
+      },
+      {
+        "team": "Los Angeles Lakers",
         "number": "1",
         "player": "Adou Thiero",
         "player_id": "5060631"
@@ -2020,27 +2038,9 @@
       },
       {
         "team": "Miami Heat",
-        "number": "",
-        "player": "Kylor Kelley",
-        "player_id": "3950760"
-      },
-      {
-        "team": "Miami Heat",
         "number": "9",
         "player": "Pelle Larsson",
         "player_id": "4601025"
-      },
-      {
-        "team": "Miami Heat",
-        "number": "",
-        "player": "Gabe Madsen",
-        "player_id": "4432753"
-      },
-      {
-        "team": "Miami Heat",
-        "number": "19",
-        "player": "Bez Mbeng",
-        "player_id": "4898237"
       },
       {
         "team": "Miami Heat",
@@ -2614,12 +2614,6 @@
       },
       {
         "team": "Orlando Magic",
-        "number": "12",
-        "player": "Malaki Branham",
-        "player_id": "4565201"
-      },
-      {
-        "team": "Orlando Magic",
         "number": "8",
         "player": "Jamal Cain",
         "player_id": "4278572"
@@ -2650,21 +2644,9 @@
       },
       {
         "team": "Orlando Magic",
-        "number": "20",
-        "player": "JD Davison",
-        "player_id": "4576085"
-      },
-      {
-        "team": "Orlando Magic",
         "number": "1",
         "player": "Jonathan Isaac",
         "player_id": "4065654"
-      },
-      {
-        "team": "Orlando Magic",
-        "number": "24",
-        "player": "Kevin Knox II",
-        "player_id": "4278075"
       },
       {
         "team": "Orlando Magic",
@@ -2848,6 +2830,12 @@
       },
       {
         "team": "Philadelphia 76ers",
+        "number": "",
+        "player": "Cris Carroll",
+        "player_id": "5241706"
+      },
+      {
+        "team": "Philadelphia 76ers",
         "number": "77",
         "player": "VJ Edgecombe",
         "player_id": "5124612"
@@ -2869,6 +2857,12 @@
         "number": "99",
         "player": "Tacko Fall",
         "player_id": "3904625"
+      },
+      {
+        "team": "Philadelphia 76ers",
+        "number": "",
+        "player": "Taye Fields",
+        "player_id": "5239799"
       },
       {
         "team": "Philadelphia 76ers",
@@ -3400,6 +3394,12 @@
       },
       {
         "team": "San Antonio Spurs",
+        "number": "8",
+        "player": "Taelon Peter",
+        "player_id": "4703421"
+      },
+      {
+        "team": "San Antonio Spurs",
         "number": "22",
         "player": "Jayden Quaintance",
         "player_id": "5101845"
@@ -3427,6 +3427,12 @@
         "number": "1",
         "player": "Victor Wembanyama",
         "player_id": "5104157"
+      },
+      {
+        "team": "San Antonio Spurs",
+        "number": "35",
+        "player": "Malik Williams",
+        "player_id": "4277880"
       },
       {
         "team": "Oklahoma City Thunder",
@@ -3457,12 +3463,6 @@
         "number": "55",
         "player": "Isaiah Hartenstein",
         "player_id": "4222252"
-      },
-      {
-        "team": "Oklahoma City Thunder",
-        "number": "17",
-        "player": "Andrew Holifield",
-        "player_id": "5116468"
       },
       {
         "team": "Oklahoma City Thunder",
@@ -3499,18 +3499,6 @@
         "number": "13",
         "player": "Otega Oweh",
         "player_id": "5106270"
-      },
-      {
-        "team": "Oklahoma City Thunder",
-        "number": "5",
-        "player": "Anthony Pritchard",
-        "player_id": "4897155"
-      },
-      {
-        "team": "Oklahoma City Thunder",
-        "number": "40",
-        "player": "Zhaire Smith",
-        "player_id": "4277923"
       },
       {
         "team": "Oklahoma City Thunder",
@@ -3835,6 +3823,12 @@
         "number": "4",
         "player": "Walter Clayton Jr.",
         "player_id": "4896372"
+      },
+      {
+        "team": "Memphis Grizzlies",
+        "number": "",
+        "player": "Zach Cleveland",
+        "player_id": "5107069"
       },
       {
         "team": "Memphis Grizzlies",
@@ -4222,12 +4216,6 @@
       },
       {
         "team": "Charlotte Hornets",
-        "number": "21",
-        "player": "Pat Connaughton",
-        "player_id": "2578239"
-      },
-      {
-        "team": "Charlotte Hornets",
         "number": "14",
         "player": "Moussa Diabate",
         "player_id": "4433249"
@@ -4321,67 +4309,28 @@
         "number": "2",
         "player": "Grant Williams",
         "player_id": "4066218"
+      },
+      {
+        "team": "Charlotte Hornets",
+        "number": "",
+        "player": "Latrell Wrightsell Jr.",
+        "player_id": "4702484"
       }
     ],
     "games": [
       {
-        "game_id": "401898406",
-        "matchup": "ORL vs MIA",
+        "game_id": "401909088",
+        "matchup": "DET vs BOS",
         "score": "0 - 0"
       },
       {
-        "game_id": "401898407",
-        "matchup": "PHI vs BOS",
+        "game_id": "401909089",
+        "matchup": "NY vs PHI",
         "score": "0 - 0"
       },
       {
-        "game_id": "401908946",
-        "matchup": "DET vs TOR",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401914126",
-        "matchup": "IND vs MIL",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898408",
-        "matchup": "DAL vs ATL",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898843",
-        "matchup": "SA vs SAC",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401901822",
-        "matchup": "MEM vs CHA",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401906509",
-        "matchup": "NO vs WSH",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401908943",
-        "matchup": "CHI vs MIN",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898409",
-        "matchup": "GS vs POR",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401908948",
-        "matchup": "PHX vs UTAH",
-        "score": "0 - 0"
-      },
-      {
-        "game_id": "401898719",
-        "matchup": "LAL vs DEN",
+        "game_id": "401909090",
+        "matchup": "SA vs OKC",
         "score": "0 - 0"
       }
     ]
