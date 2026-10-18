@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:45:15.099546+00:00",
+  "generated_at": "2026-10-18T17:00:57.856444+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -550,18 +550,6 @@
       },
       {
         "team": "Atlanta Hawks",
-        "number": "",
-        "player": "Giorgi Bezhanishvili",
-        "player_id": "4397003"
-      },
-      {
-        "team": "Atlanta Hawks",
-        "number": "",
-        "player": "Cameron Corhen",
-        "player_id": "4712902"
-      },
-      {
-        "team": "Atlanta Hawks",
         "number": "5",
         "player": "Dyson Daniels",
         "player_id": "4869342"
@@ -616,12 +604,6 @@
       },
       {
         "team": "Atlanta Hawks",
-        "number": "12",
-        "player": "Kobe Johnson",
-        "player_id": "4683857"
-      },
-      {
-        "team": "Atlanta Hawks",
         "number": "24",
         "player": "Corey Kispert",
         "player_id": "4280151"
@@ -637,12 +619,6 @@
         "number": "3",
         "player": "CJ McCollum",
         "player_id": "2490149"
-      },
-      {
-        "team": "Atlanta Hawks",
-        "number": "15",
-        "player": "Isaac McKneely",
-        "player_id": "4712845"
       },
       {
         "team": "Atlanta Hawks",
@@ -694,12 +670,6 @@
       },
       {
         "team": "Boston Celtics",
-        "number": "26",
-        "player": "Tucker DeVries",
-        "player_id": "4837238"
-      },
-      {
-        "team": "Boston Celtics",
         "number": "52",
         "player": "Luka Garza",
         "player_id": "4277951"
@@ -718,12 +688,6 @@
       },
       {
         "team": "Boston Celtics",
-        "number": "44",
-        "player": "Hayden Gray",
-        "player_id": "5176420"
-      },
-      {
-        "team": "Boston Celtics",
         "number": "8",
         "player": "Ron Harper Jr.",
         "player_id": "4397251"
@@ -733,12 +697,6 @@
         "number": "30",
         "player": "Sam Hauser",
         "player_id": "4065804"
-      },
-      {
-        "team": "Boston Celtics",
-        "number": "41",
-        "player": "Gabe McGlothan",
-        "player_id": "4398356"
       },
       {
         "team": "Boston Celtics",
@@ -778,12 +736,6 @@
       },
       {
         "team": "Boston Celtics",
-        "number": "29",
-        "player": "Milos Uzan",
-        "player_id": "5106272"
-      },
-      {
-        "team": "Boston Celtics",
         "number": "27",
         "player": "Jordan Walsh",
         "player_id": "4683689"
@@ -802,21 +754,9 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "19",
-        "player": "Rashaun Agee",
-        "player_id": "4593815"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "31",
         "player": "Jarrett Allen",
         "player_id": "4066328"
-      },
-      {
-        "team": "Cleveland Cavaliers",
-        "number": "55",
-        "player": "Zack Austin",
-        "player_id": "4702099"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -847,12 +787,6 @@
         "number": "33",
         "player": "Mario Hezonja",
         "player_id": "2995706"
-      },
-      {
-        "team": "Cleveland Cavaliers",
-        "number": "14",
-        "player": "Curtis Jones",
-        "player_id": "4898369"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -892,12 +826,6 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "16",
-        "player": "Kadary Richmond",
-        "player_id": "4701845"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "15",
         "player": "Meleek Thomas",
         "player_id": "5041951"
@@ -927,22 +855,10 @@
         "player_id": "4576087"
       },
       {
-        "team": "Cleveland Cavaliers",
-        "number": "30",
-        "player": "Noam Yaacov",
-        "player_id": "5457832"
-      },
-      {
         "team": "New Orleans Pelicans",
         "number": "41",
         "player": "Saddiq Bey",
         "player_id": "4397136"
-      },
-      {
-        "team": "New Orleans Pelicans",
-        "number": "4",
-        "player": "Kobe Bufkin",
-        "player_id": "4683736"
       },
       {
         "team": "New Orleans Pelicans",
@@ -1006,12 +922,6 @@
       },
       {
         "team": "New Orleans Pelicans",
-        "number": "",
-        "player": "Jalon Moore",
-        "player_id": "4701819"
-      },
-      {
-        "team": "New Orleans Pelicans",
         "number": "25",
         "player": "Trey Murphy III",
         "player_id": "4397688"
@@ -1063,18 +973,6 @@
         "number": "19",
         "player": "Tobe Awaka",
         "player_id": "5105555"
-      },
-      {
-        "team": "Chicago Bulls",
-        "number": "13",
-        "player": "Brandon Boston Jr.",
-        "player_id": "4432162"
-      },
-      {
-        "team": "Chicago Bulls",
-        "number": "20",
-        "player": "Jalen Bridges",
-        "player_id": "4432946"
       },
       {
         "team": "Chicago Bulls",
@@ -1138,21 +1036,9 @@
       },
       {
         "team": "Chicago Bulls",
-        "number": "21",
-        "player": "Drew Peterson",
-        "player_id": "4397689"
-      },
-      {
-        "team": "Chicago Bulls",
         "number": "24",
         "player": "Norman Powell",
         "player_id": "2595516"
-      },
-      {
-        "team": "Chicago Bulls",
-        "number": "00",
-        "player": "Orlando Robinson",
-        "player_id": "4593049"
       },
       {
         "team": "Chicago Bulls",
@@ -1270,12 +1156,6 @@
       },
       {
         "team": "Dallas Mavericks",
-        "number": "5",
-        "player": "Seth Lundy",
-        "player_id": "4431775"
-      },
-      {
-        "team": "Dallas Mavericks",
         "number": "3",
         "player": "Naji Marshall",
         "player_id": "4278594"
@@ -1285,12 +1165,6 @@
         "number": "16",
         "player": "Caleb Martin",
         "player_id": "3138160"
-      },
-      {
-        "team": "Dallas Mavericks",
-        "number": "1",
-        "player": "John Poulakidas",
-        "player_id": "4898238"
       },
       {
         "team": "Dallas Mavericks",
@@ -1336,12 +1210,6 @@
       },
       {
         "team": "Denver Nuggets",
-        "number": "",
-        "player": "Steven Crowl",
-        "player_id": "4588201"
-      },
-      {
-        "team": "Denver Nuggets",
         "number": "10",
         "player": "DeMar DeRozan",
         "player_id": "3978"
@@ -1354,21 +1222,9 @@
       },
       {
         "team": "Denver Nuggets",
-        "number": "20",
-        "player": "Dane Goodwin",
-        "player_id": "4395667"
-      },
-      {
-        "team": "Denver Nuggets",
         "number": "32",
         "player": "Aaron Gordon",
         "player_id": "3064290"
-      },
-      {
-        "team": "Denver Nuggets",
-        "number": "43",
-        "player": "Coleman Hawkins",
-        "player_id": "4432976"
       },
       {
         "team": "Denver Nuggets",
@@ -1408,12 +1264,6 @@
       },
       {
         "team": "Denver Nuggets",
-        "number": "8",
-        "player": "Emanuel Miller",
-        "player_id": "4432872"
-      },
-      {
-        "team": "Denver Nuggets",
         "number": "27",
         "player": "Jamal Murray",
         "player_id": "3936299"
@@ -1438,12 +1288,6 @@
       },
       {
         "team": "Denver Nuggets",
-        "number": "4",
-        "player": "Lonnie Walker IV",
-        "player_id": "4277890"
-      },
-      {
-        "team": "Denver Nuggets",
         "number": "00",
         "player": "Cam Whitmore",
         "player_id": "5105592"
@@ -1453,12 +1297,6 @@
         "number": "28",
         "player": "Charles Bassey",
         "player_id": "4397886"
-      },
-      {
-        "team": "Golden State Warriors",
-        "number": "",
-        "player": "Tyler Burton",
-        "player_id": "4431914"
       },
       {
         "team": "Golden State Warriors",
@@ -1495,12 +1333,6 @@
         "number": "",
         "player": "Graham Ike",
         "player_id": "4703396"
-      },
-      {
-        "team": "Golden State Warriors",
-        "number": "26",
-        "player": "Miles Kelly",
-        "player_id": "4696317"
       },
       {
         "team": "Golden State Warriors",
@@ -1564,18 +1396,6 @@
       },
       {
         "team": "Golden State Warriors",
-        "number": "21",
-        "player": "Dalen Terry",
-        "player_id": "4433159"
-      },
-      {
-        "team": "Golden State Warriors",
-        "number": "22",
-        "player": "Alex Toohey",
-        "player_id": "5170949"
-      },
-      {
-        "team": "Golden State Warriors",
         "number": "12",
         "player": "Brandon Williams",
         "player_id": "4397040"
@@ -1627,12 +1447,6 @@
         "number": "17",
         "player": "Tari Eason",
         "player_id": "4433192"
-      },
-      {
-        "team": "Houston Rockets",
-        "number": "",
-        "player": "Cameron Matthews",
-        "player_id": "4432394"
       },
       {
         "team": "Houston Rockets",
@@ -1756,21 +1570,9 @@
       },
       {
         "team": "Los Angeles Clippers",
-        "number": "17",
-        "player": "Yuki Kawamura",
-        "player_id": "5159895"
-      },
-      {
-        "team": "Los Angeles Clippers",
         "number": "11",
         "player": "Brook Lopez",
         "player_id": "3448"
-      },
-      {
-        "team": "Los Angeles Clippers",
-        "number": "26",
-        "player": "Fletcher Loyer",
-        "player_id": "5105853"
       },
       {
         "team": "Los Angeles Clippers",
@@ -1816,39 +1618,15 @@
       },
       {
         "team": "Los Angeles Clippers",
-        "number": "19",
-        "player": "Jahmyl Telfort",
-        "player_id": "4702785"
-      },
-      {
-        "team": "Los Angeles Clippers",
         "number": "1",
         "player": "Keaton Wagler",
         "player_id": "5254165"
-      },
-      {
-        "team": "Los Angeles Clippers",
-        "number": "20",
-        "player": "Blake Wesley",
-        "player_id": "4683935"
-      },
-      {
-        "team": "Los Angeles Clippers",
-        "number": "",
-        "player": "DeAndre Williams",
-        "player_id": "4397355"
       },
       {
         "team": "Los Angeles Lakers",
         "number": "43",
         "player": "Cameron Carr",
         "player_id": "5113969"
-      },
-      {
-        "team": "Los Angeles Lakers",
-        "number": "",
-        "player": "Rafael Castro",
-        "player_id": "4684443"
       },
       {
         "team": "Los Angeles Lakers",
@@ -1894,12 +1672,6 @@
       },
       {
         "team": "Los Angeles Lakers",
-        "number": "45",
-        "player": "William Kyle III",
-        "player_id": "5107258"
-      },
-      {
-        "team": "Los Angeles Lakers",
         "number": "12",
         "player": "Jake LaRavia",
         "player_id": "4592691"
@@ -1939,12 +1711,6 @@
         "number": "10",
         "player": "Collin Sexton",
         "player_id": "4277811"
-      },
-      {
-        "team": "Los Angeles Lakers",
-        "number": "",
-        "player": "Aniwaniwa Tait-Jones",
-        "player_id": "4711203"
       },
       {
         "team": "Los Angeles Lakers",
@@ -2068,12 +1834,6 @@
       },
       {
         "team": "Miami Heat",
-        "number": "20",
-        "player": "Ian Schieffelin",
-        "player_id": "4693954"
-      },
-      {
-        "team": "Miami Heat",
         "number": "12",
         "player": "Dru Smith",
         "player_id": "4066993"
@@ -2101,12 +1861,6 @@
         "number": "15",
         "player": "Nate Ament",
         "player_id": "5164559"
-      },
-      {
-        "team": "Milwaukee Bucks",
-        "number": "22",
-        "player": "Johni Broome",
-        "player_id": "4433569"
       },
       {
         "team": "Milwaukee Bucks",
@@ -2176,12 +1930,6 @@
       },
       {
         "team": "Milwaukee Bucks",
-        "number": "35",
-        "player": "Pete Nance",
-        "player_id": "4397233"
-      },
-      {
-        "team": "Milwaukee Bucks",
         "number": "7",
         "player": "Kevin Porter Jr.",
         "player_id": "4397140"
@@ -2203,12 +1951,6 @@
         "number": "00",
         "player": "Jericho Sims",
         "player_id": "4277922"
-      },
-      {
-        "team": "Milwaukee Bucks",
-        "number": "88",
-        "player": "Jake Stephens",
-        "player_id": "4398257"
       },
       {
         "team": "Milwaukee Bucks",
@@ -2272,12 +2014,6 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "number": "25",
-        "player": "Enrique Freeman",
-        "player_id": "4592699"
-      },
-      {
-        "team": "Minnesota Timberwolves",
         "number": "27",
         "player": "Rudy Gobert",
         "player_id": "3032976"
@@ -2302,21 +2038,9 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "number": "99",
-        "player": "KJ Martin",
-        "player_id": "4431828"
-      },
-      {
-        "team": "Minnesota Timberwolves",
         "number": "3",
         "player": "Jaden McDaniels",
         "player_id": "4431671"
-      },
-      {
-        "team": "Minnesota Timberwolves",
-        "number": "23",
-        "player": "Norchad Omier",
-        "player_id": "4702134"
       },
       {
         "team": "Minnesota Timberwolves",
@@ -2326,21 +2050,9 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "number": "12",
-        "player": "Antonio Reeves",
-        "player_id": "4592686"
-      },
-      {
-        "team": "Minnesota Timberwolves",
         "number": "4",
         "player": "Terrence Shannon Jr.",
         "player_id": "4432847"
-      },
-      {
-        "team": "Minnesota Timberwolves",
-        "number": "17",
-        "player": "Drew Timme",
-        "player_id": "4431695"
       },
       {
         "team": "Minnesota Timberwolves",
@@ -2464,12 +2176,6 @@
       },
       {
         "team": "New York Knicks",
-        "number": "30",
-        "player": "Ochai Agbaji",
-        "player_id": "4397018"
-      },
-      {
-        "team": "New York Knicks",
         "number": "14",
         "player": "Jaden Akins",
         "player_id": "4683730"
@@ -2488,21 +2194,9 @@
       },
       {
         "team": "New York Knicks",
-        "number": "18",
-        "player": "Tony Bradley",
-        "player_id": "4065673"
-      },
-      {
-        "team": "New York Knicks",
         "number": "25",
         "player": "Mikal Bridges",
         "player_id": "3147657"
-      },
-      {
-        "team": "New York Knicks",
-        "number": "1",
-        "player": "Bruce Brown",
-        "player_id": "4065670"
       },
       {
         "team": "New York Knicks",
@@ -2533,12 +2227,6 @@
         "number": "0",
         "player": "Andre Drummond",
         "player_id": "6585"
-      },
-      {
-        "team": "New York Knicks",
-        "number": "19",
-        "player": "Drew Eubanks",
-        "player_id": "3914285"
       },
       {
         "team": "New York Knicks",
@@ -2728,12 +2416,6 @@
       },
       {
         "team": "Indiana Pacers",
-        "number": "16",
-        "player": "James Johnson",
-        "player_id": "3999"
-      },
-      {
-        "team": "Indiana Pacers",
         "number": "9",
         "player": "T.J. McConnell",
         "player_id": "2530530"
@@ -2830,12 +2512,6 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "number": "",
-        "player": "Cris Carroll",
-        "player_id": "5241706"
-      },
-      {
-        "team": "Philadelphia 76ers",
         "number": "77",
         "player": "VJ Edgecombe",
         "player_id": "5124612"
@@ -2860,12 +2536,6 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "number": "",
-        "player": "Taye Fields",
-        "player_id": "5239799"
-      },
-      {
-        "team": "Philadelphia 76ers",
         "number": "55",
         "player": "Ariel Hukporti",
         "player_id": "4871141"
@@ -2878,12 +2548,6 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "number": "35",
-        "player": "Dillon Jones",
-        "player_id": "4702159"
-      },
-      {
-        "team": "Philadelphia 76ers",
         "number": "8",
         "player": "Caleb Love",
         "player_id": "4433144"
@@ -2893,18 +2557,6 @@
         "number": "0",
         "player": "Tyrese Maxey",
         "player_id": "4431678"
-      },
-      {
-        "team": "Philadelphia 76ers",
-        "number": "31",
-        "player": "Duke Miles",
-        "player_id": "4702049"
-      },
-      {
-        "team": "Philadelphia 76ers",
-        "number": "14",
-        "player": "Jameer Nelson Jr.",
-        "player_id": "4592444"
       },
       {
         "team": "Philadelphia 76ers",
@@ -2923,12 +2575,6 @@
         "number": "5",
         "player": "Anfernee Simons",
         "player_id": "4351851"
-      },
-      {
-        "team": "Philadelphia 76ers",
-        "number": "19",
-        "player": "Saint Thomas",
-        "player_id": "4897471"
       },
       {
         "team": "Philadelphia 76ers",
@@ -2974,12 +2620,6 @@
       },
       {
         "team": "Phoenix Suns",
-        "number": "2",
-        "player": "Kennedy Chandler",
-        "player_id": "4432646"
-      },
-      {
-        "team": "Phoenix Suns",
         "number": "0",
         "player": "Ryan Dunn",
         "player_id": "4888725"
@@ -3007,12 +2647,6 @@
         "number": "4",
         "player": "Jalen Green",
         "player_id": "4437244"
-      },
-      {
-        "team": "Phoenix Suns",
-        "number": "19",
-        "player": "Haywood Highsmith",
-        "player_id": "4291678"
       },
       {
         "team": "Phoenix Suns",
@@ -3055,12 +2689,6 @@
         "number": "61",
         "player": "Pat Spencer",
         "player_id": "4592714"
-      },
-      {
-        "team": "Phoenix Suns",
-        "number": "",
-        "player": "Phillip Wheeler",
-        "player_id": "4909710"
       },
       {
         "team": "Phoenix Suns",
@@ -3160,12 +2788,6 @@
       },
       {
         "team": "Portland Trail Blazers",
-        "number": "4",
-        "player": "Jeremy Sochan",
-        "player_id": "4610139"
-      },
-      {
-        "team": "Portland Trail Blazers",
         "number": "2",
         "player": "John Tonje",
         "player_id": "4593043"
@@ -3232,12 +2854,6 @@
       },
       {
         "team": "Sacramento Kings",
-        "number": "",
-        "player": "Viktor Lakhin",
-        "player_id": "4701192"
-      },
-      {
-        "team": "Sacramento Kings",
         "number": "8",
         "player": "Zach LaVine",
         "player_id": "3064440"
@@ -3259,18 +2875,6 @@
         "number": "13",
         "player": "Keegan Murray",
         "player_id": "4594327"
-      },
-      {
-        "team": "Sacramento Kings",
-        "number": "00",
-        "player": "Tristen Newton",
-        "player_id": "4592965"
-      },
-      {
-        "team": "Sacramento Kings",
-        "number": "3",
-        "player": "Elfrid Payton",
-        "player_id": "2583639"
       },
       {
         "team": "Sacramento Kings",
@@ -3334,18 +2938,6 @@
       },
       {
         "team": "San Antonio Spurs",
-        "number": "14",
-        "player": "RJ Davis",
-        "player_id": "4433176"
-      },
-      {
-        "team": "San Antonio Spurs",
-        "number": "33",
-        "player": "Jon Elmore",
-        "player_id": "3155937"
-      },
-      {
-        "team": "San Antonio Spurs",
         "number": "4",
         "player": "De'Aaron Fox",
         "player_id": "4066259"
@@ -3394,12 +2986,6 @@
       },
       {
         "team": "San Antonio Spurs",
-        "number": "8",
-        "player": "Taelon Peter",
-        "player_id": "4703421"
-      },
-      {
-        "team": "San Antonio Spurs",
         "number": "22",
         "player": "Jayden Quaintance",
         "player_id": "5101845"
@@ -3412,12 +2998,6 @@
       },
       {
         "team": "San Antonio Spurs",
-        "number": "",
-        "player": "Terry Taylor",
-        "player_id": "4279815"
-      },
-      {
-        "team": "San Antonio Spurs",
         "number": "24",
         "player": "Devin Vassell",
         "player_id": "4395630"
@@ -3427,12 +3007,6 @@
         "number": "1",
         "player": "Victor Wembanyama",
         "player_id": "5104157"
-      },
-      {
-        "team": "San Antonio Spurs",
-        "number": "35",
-        "player": "Malik Williams",
-        "player_id": "4277880"
       },
       {
         "team": "Oklahoma City Thunder",
@@ -3514,12 +3088,6 @@
       },
       {
         "team": "Oklahoma City Thunder",
-        "number": "33",
-        "player": "Christoph Tilly",
-        "player_id": "5109790"
-      },
-      {
-        "team": "Oklahoma City Thunder",
         "number": "44",
         "player": "Nikola Topic",
         "player_id": "5159925"
@@ -3586,51 +3154,15 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "25",
-        "player": "Nimari Burnett",
-        "player_id": "4433138"
-      },
-      {
-        "team": "Toronto Raptors",
-        "number": "",
-        "player": "Tyson Degenhart",
-        "player_id": "4898260"
-      },
-      {
-        "team": "Toronto Raptors",
         "number": "22",
         "player": "Allen Graves",
         "player_id": "5149115"
       },
       {
         "team": "Toronto Raptors",
-        "number": "24",
-        "player": "Chucky Hepburn",
-        "player_id": "4590360"
-      },
-      {
-        "team": "Toronto Raptors",
-        "number": "44",
-        "player": "Andre Jackson Jr.",
-        "player_id": "4432190"
-      },
-      {
-        "team": "Toronto Raptors",
         "number": "32",
         "player": "Trayce Jackson-Davis",
         "player_id": "4431684"
-      },
-      {
-        "team": "Toronto Raptors",
-        "number": "50",
-        "player": "Trey Jemison III",
-        "player_id": "4395623"
-      },
-      {
-        "team": "Toronto Raptors",
-        "number": "11",
-        "player": "Tyreke Key",
-        "player_id": "4279143"
       },
       {
         "team": "Toronto Raptors",
@@ -3664,12 +3196,6 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "",
-        "player": "Jamarion Sharp",
-        "player_id": "4897696"
-      },
-      {
-        "team": "Toronto Raptors",
         "number": "23",
         "player": "Jamal Shead",
         "player_id": "4432241"
@@ -3685,12 +3211,6 @@
         "number": "14",
         "player": "Ja'Kobe Walter",
         "player_id": "4684272"
-      },
-      {
-        "team": "Utah Jazz",
-        "number": "13",
-        "player": "Jonas Aidoo",
-        "player_id": "4684682"
       },
       {
         "team": "Utah Jazz",
@@ -3712,9 +3232,9 @@
       },
       {
         "team": "Utah Jazz",
-        "number": "0",
-        "player": "Tamar Bates",
-        "player_id": "4683933"
+        "number": "",
+        "player": "Tony Bradley",
+        "player_id": "4065673"
       },
       {
         "team": "Utah Jazz",
@@ -3733,12 +3253,6 @@
         "number": "2",
         "player": "Kyle Filipowski",
         "player_id": "4684793"
-      },
-      {
-        "team": "Utah Jazz",
-        "number": "33",
-        "player": "Taylor Funk",
-        "player_id": "4278395"
       },
       {
         "team": "Utah Jazz",
@@ -3823,12 +3337,6 @@
         "number": "4",
         "player": "Walter Clayton Jr.",
         "player_id": "4896372"
-      },
-      {
-        "team": "Memphis Grizzlies",
-        "number": "",
-        "player": "Zach Cleveland",
-        "player_id": "5107069"
       },
       {
         "team": "Memphis Grizzlies",
@@ -4006,24 +3514,6 @@
       },
       {
         "team": "Washington Wizards",
-        "number": "13",
-        "player": "Trevor Keels",
-        "player_id": "4432645"
-      },
-      {
-        "team": "Washington Wizards",
-        "number": "17",
-        "player": "Skal Labissiere",
-        "player_id": "3936296"
-      },
-      {
-        "team": "Washington Wizards",
-        "number": "24",
-        "player": "Chris Livingston",
-        "player_id": "4433622"
-      },
-      {
-        "team": "Washington Wizards",
         "number": "1",
         "player": "Tre Mann",
         "player_id": "4432819"
@@ -4069,12 +3559,6 @@
         "number": "5",
         "player": "Jamir Watkins",
         "player_id": "4606840"
-      },
-      {
-        "team": "Washington Wizards",
-        "number": "31",
-        "player": "Alondes Williams",
-        "player_id": "4592216"
       },
       {
         "team": "Washington Wizards",
@@ -4191,12 +3675,6 @@
         "player_id": "4684742"
       },
       {
-        "team": "Detroit Pistons",
-        "number": "25",
-        "player": "Brice Williams",
-        "player_id": "4592843"
-      },
-      {
         "team": "Charlotte Hornets",
         "number": "8",
         "player": "Grayson Allen",
@@ -4222,12 +3700,6 @@
       },
       {
         "team": "Charlotte Hornets",
-        "number": "23",
-        "player": "Wyatt Fricks",
-        "player_id": "4897504"
-      },
-      {
-        "team": "Charlotte Hornets",
         "number": "16",
         "player": "PJ Hall",
         "player_id": "4701225"
@@ -4237,12 +3709,6 @@
         "number": "4",
         "player": "Sion James",
         "player_id": "4602025"
-      },
-      {
-        "team": "Charlotte Hornets",
-        "number": "20",
-        "player": "Jarkel Joiner",
-        "player_id": "4278729"
       },
       {
         "team": "Charlotte Hornets",
@@ -4309,12 +3775,6 @@
         "number": "2",
         "player": "Grant Williams",
         "player_id": "4066218"
-      },
-      {
-        "team": "Charlotte Hornets",
-        "number": "",
-        "player": "Latrell Wrightsell Jr.",
-        "player_id": "4702484"
       }
     ],
     "games": [
