@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:00:57.856444+00:00",
+  "generated_at": "2026-10-19T19:34:24.202334+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -586,7 +586,7 @@
       },
       {
         "team": "Atlanta Hawks",
-        "number": "51",
+        "number": "00",
         "player": "Keshon Gilbert",
         "player_id": "4585618"
       },
@@ -892,12 +892,6 @@
       },
       {
         "team": "New Orleans Pelicans",
-        "number": "35",
-        "player": "Christian Koloko",
-        "player_id": "4431778"
-      },
-      {
-        "team": "New Orleans Pelicans",
         "number": "24",
         "player": "Bennedict Mathurin",
         "player_id": "4683634"
@@ -1078,12 +1072,6 @@
       },
       {
         "team": "Dallas Mavericks",
-        "number": "",
-        "player": "Quincy Acy",
-        "player_id": "6576"
-      },
-      {
-        "team": "Dallas Mavericks",
         "number": "34",
         "player": "Santi Aldama",
         "player_id": "4593125"
@@ -1165,12 +1153,6 @@
         "number": "16",
         "player": "Caleb Martin",
         "player_id": "3138160"
-      },
-      {
-        "team": "Dallas Mavericks",
-        "number": "7",
-        "player": "Dwight Powell",
-        "player_id": "2531367"
       },
       {
         "team": "Dallas Mavericks",
@@ -1417,12 +1399,6 @@
         "number": "30",
         "player": "Clint Capela",
         "player_id": "3102529"
-      },
-      {
-        "team": "Houston Rockets",
-        "number": "19",
-        "player": "Tyson Chandler",
-        "player_id": "984"
       },
       {
         "team": "Houston Rockets",
@@ -1780,12 +1756,6 @@
       },
       {
         "team": "Miami Heat",
-        "number": "14",
-        "player": "J'Vonne Hadley",
-        "player_id": "4702784"
-      },
-      {
-        "team": "Miami Heat",
         "number": "10",
         "player": "Tim Hardaway Jr.",
         "player_id": "2528210"
@@ -1822,12 +1792,6 @@
       },
       {
         "team": "Miami Heat",
-        "number": "25",
-        "player": "Lester Quinones",
-        "player_id": "4431720"
-      },
-      {
-        "team": "Miami Heat",
         "number": "8",
         "player": "Nick Richards",
         "player_id": "4278076"
@@ -1837,12 +1801,6 @@
         "number": "12",
         "player": "Dru Smith",
         "player_id": "4066993"
-      },
-      {
-        "team": "Miami Heat",
-        "number": "",
-        "player": "Dennis Smith Jr.",
-        "player_id": "4065697"
       },
       {
         "team": "Miami Heat",
@@ -1867,12 +1825,6 @@
         "number": "0",
         "player": "Brayden Burries",
         "player_id": "5082206"
-      },
-      {
-        "team": "Milwaukee Bucks",
-        "number": "27",
-        "player": "John Butler Jr.",
-        "player_id": "4432588"
       },
       {
         "team": "Milwaukee Bucks",
@@ -2362,12 +2314,6 @@
       },
       {
         "team": "Orlando Magic",
-        "number": "",
-        "player": "Mike Sharavjamts",
-        "player_id": "5105875"
-      },
-      {
-        "team": "Orlando Magic",
         "number": "4",
         "player": "Jalen Suggs",
         "player_id": "4432165"
@@ -2764,12 +2710,6 @@
       },
       {
         "team": "Portland Trail Blazers",
-        "number": "",
-        "player": "Jaylen Martin",
-        "player_id": "4684737"
-      },
-      {
-        "team": "Portland Trail Blazers",
         "number": "1",
         "player": "Ja Morant",
         "player_id": "4279888"
@@ -2833,12 +2773,6 @@
         "number": "10",
         "player": "Nique Clifford",
         "player_id": "4702384"
-      },
-      {
-        "team": "Sacramento Kings",
-        "number": "20",
-        "player": "Adam Flagler",
-        "player_id": "4397654"
       },
       {
         "team": "Sacramento Kings",
@@ -3058,12 +2992,6 @@
       },
       {
         "team": "Oklahoma City Thunder",
-        "number": "16",
-        "player": "Robert McCray V",
-        "player_id": "4685802"
-      },
-      {
-        "team": "Oklahoma City Thunder",
         "number": "25",
         "player": "Ajay Mitchell",
         "player_id": "4900671"
@@ -3232,15 +3160,9 @@
       },
       {
         "team": "Utah Jazz",
-        "number": "",
+        "number": "13",
         "player": "Tony Bradley",
         "player_id": "4065673"
-      },
-      {
-        "team": "Utah Jazz",
-        "number": "16",
-        "player": "Terrell Brown Jr.",
-        "player_id": "4395997"
       },
       {
         "team": "Utah Jazz",
@@ -3448,7 +3370,7 @@
       },
       {
         "team": "Washington Wizards",
-        "number": "6",
+        "number": "8",
         "player": "Deandre Ayton",
         "player_id": "4278129"
       },
@@ -3502,12 +3424,6 @@
       },
       {
         "team": "Washington Wizards",
-        "number": "",
-        "player": "Jazian Gortman",
-        "player_id": "4708972"
-      },
-      {
-        "team": "Washington Wizards",
         "number": "12",
         "player": "Tre Johnson",
         "player_id": "5238230"
@@ -3541,12 +3457,6 @@
         "number": "20",
         "player": "Alex Sarr",
         "player_id": "5160992"
-      },
-      {
-        "team": "Washington Wizards",
-        "number": "14",
-        "player": "Steve Settle III",
-        "player_id": "4704043"
       },
       {
         "team": "Washington Wizards",
