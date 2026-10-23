@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:13:08.400854+00:00",
+  "generated_at": "2026-10-23T18:01:48.204872+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 12 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 12 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -361,6 +361,12 @@
     ],
     "standings": [
       {
+        "team": "Boston Celtics",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
+      },
+      {
         "team": "Brooklyn Nets",
         "wins": 0,
         "losses": 1,
@@ -373,12 +379,6 @@
         "win_pct": 0.0
       },
       {
-        "team": "Boston Celtics",
-        "wins": 0,
-        "losses": 1,
-        "win_pct": 0.0
-      },
-      {
         "team": "Toronto Raptors",
         "wins": 1,
         "losses": 0,
@@ -386,9 +386,15 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "win_pct": 1.0
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "wins": 0,
+        "losses": 1,
+        "win_pct": 0.0
       },
       {
         "team": "Milwaukee Bucks",
@@ -400,12 +406,6 @@
         "team": "Chicago Bulls",
         "wins": 0,
         "losses": 1,
-        "win_pct": 0.0
-      },
-      {
-        "team": "Cleveland Cavaliers",
-        "wins": 0,
-        "losses": 0,
         "win_pct": 0.0
       },
       {
@@ -451,15 +451,15 @@
         "win_pct": 1.0
       },
       {
-        "team": "Utah Jazz",
+        "team": "Denver Nuggets",
         "wins": 0,
         "losses": 1,
         "win_pct": 0.0
       },
       {
-        "team": "Denver Nuggets",
+        "team": "Utah Jazz",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "win_pct": 0.0
       },
       {
@@ -476,7 +476,7 @@
       },
       {
         "team": "Oklahoma City Thunder",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "win_pct": 1.0
       },
@@ -766,12 +766,6 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "18",
-        "player": "Khalifa Diop",
-        "player_id": "4997530"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "21",
         "player": "Tristan Enaruna",
         "player_id": "4431734"
@@ -832,21 +826,9 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "35",
-        "player": "Nae'Qwan Tomlin",
-        "player_id": "5106268"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "20",
         "player": "Jaylon Tyson",
         "player_id": "4683747"
-      },
-      {
-        "team": "Cleveland Cavaliers",
-        "number": "39",
-        "player": "Ernest Udeh Jr.",
-        "player_id": "5106261"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -2173,6 +2155,12 @@
         "number": "3",
         "player": "Josh Hart",
         "player_id": "3062679"
+      },
+      {
+        "team": "New York Knicks",
+        "number": "99",
+        "player": "Dalton Knecht",
+        "player_id": "4897943"
       },
       {
         "team": "New York Knicks",
@@ -3659,13 +3647,63 @@
     ],
     "games": [
       {
-        "game_id": "401909093",
-        "matchup": "PHI vs CLE",
+        "game_id": "401909848",
+        "matchup": "MIL vs CHI",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909094",
-        "matchup": "OKC vs DEN",
+        "game_id": "401909095",
+        "matchup": "BOS vs NY",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909843",
+        "matchup": "CHA vs ATL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909844",
+        "matchup": "IND vs DAL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909845",
+        "matchup": "ORL vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909846",
+        "matchup": "WSH vs TOR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909847",
+        "matchup": "MIA vs DET",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909096",
+        "matchup": "SA vs HOU",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909849",
+        "matchup": "UTAH vs NO",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909850",
+        "matchup": "GS vs MEM",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909851",
+        "matchup": "LAL vs LAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909852",
+        "matchup": "SAC vs POR",
         "score": "0 - 0"
       }
     ]
