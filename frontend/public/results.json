@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:41:05.635121+00:00",
+  "generated_at": "2026-11-02T22:31:34.853982+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 4 game IDs are unique"
+      "message": "All 15 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 4 games have exactly 2 teams"
+      "message": "All 15 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -362,9 +362,9 @@
     "standings": [
       {
         "team": "Brooklyn Nets",
-        "wins": 0,
+        "wins": 1,
         "losses": 5,
-        "win_pct": 0.0
+        "win_pct": 0.16666667
       },
       {
         "team": "New York Knicks",
@@ -375,14 +375,14 @@
       {
         "team": "Toronto Raptors",
         "wins": 3,
-        "losses": 2,
-        "win_pct": 0.6
+        "losses": 3,
+        "win_pct": 0.5
       },
       {
         "team": "Boston Celtics",
-        "wins": 4,
+        "wins": 5,
         "losses": 1,
-        "win_pct": 0.8
+        "win_pct": 0.8333333
       },
       {
         "team": "Philadelphia 76ers",
@@ -405,8 +405,8 @@
       {
         "team": "Indiana Pacers",
         "wins": 2,
-        "losses": 4,
-        "win_pct": 0.33333334
+        "losses": 5,
+        "win_pct": 0.2857143
       },
       {
         "team": "Cleveland Cavaliers",
@@ -419,6 +419,12 @@
         "wins": 5,
         "losses": 1,
         "win_pct": 0.8333333
+      },
+      {
+        "team": "Orlando Magic",
+        "wins": 2,
+        "losses": 4,
+        "win_pct": 0.33333334
       },
       {
         "team": "Miami Heat",
@@ -437,12 +443,6 @@
         "wins": 3,
         "losses": 4,
         "win_pct": 0.42857143
-      },
-      {
-        "team": "Orlando Magic",
-        "wins": 2,
-        "losses": 3,
-        "win_pct": 0.4
       },
       {
         "team": "Washington Wizards",
@@ -489,8 +489,8 @@
       {
         "team": "LA Clippers",
         "wins": 1,
-        "losses": 4,
-        "win_pct": 0.2
+        "losses": 5,
+        "win_pct": 0.16666667
       },
       {
         "team": "Phoenix Suns",
@@ -500,15 +500,15 @@
       },
       {
         "team": "Golden State Warriors",
-        "wins": 3,
+        "wins": 4,
         "losses": 3,
-        "win_pct": 0.5
+        "win_pct": 0.5714286
       },
       {
         "team": "Los Angeles Lakers",
-        "wins": 4,
+        "wins": 5,
         "losses": 2,
-        "win_pct": 0.6666667
+        "win_pct": 0.71428573
       },
       {
         "team": "New Orleans Pelicans",
@@ -3671,23 +3671,78 @@
     ],
     "games": [
       {
-        "game_id": "401909903",
-        "matchup": "ORL vs BOS",
+        "game_id": "401909907",
+        "matchup": "CLE vs OKC",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909904",
-        "matchup": "IND vs BKN",
+        "game_id": "401909908",
+        "matchup": "CHA vs DET",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909905",
-        "matchup": "GS vs LAC",
+        "game_id": "401909909",
+        "matchup": "IND vs ATL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909906",
-        "matchup": "LAL vs TOR",
+        "game_id": "401909910",
+        "matchup": "NY vs BKN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909911",
+        "matchup": "ORL vs WSH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909912",
+        "matchup": "PHI vs CHI",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909913",
+        "matchup": "DAL vs SAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909914",
+        "matchup": "MEM vs NO",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909915",
+        "matchup": "MIN vs MIL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909916",
+        "matchup": "HOU vs BOS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909917",
+        "matchup": "SA vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909918",
+        "matchup": "DEN vs POR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909919",
+        "matchup": "GS vs PHX",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909920",
+        "matchup": "LAC vs TOR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909921",
+        "matchup": "LAL vs MIA",
         "score": "0 - 0"
       }
     ]
