@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:20:56.288508+00:00",
+  "generated_at": "2026-11-04T20:37:03.436058+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -1954,12 +1954,6 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "number": "25",
-        "player": "Enrique Freeman",
-        "player_id": "4592699"
-      },
-      {
-        "team": "Minnesota Timberwolves",
         "number": "27",
         "player": "Rudy Gobert",
         "player_id": "3032976"
@@ -3007,6 +3001,12 @@
         "number": "14",
         "player": "Bennett Stirtz",
         "player_id": "5241364"
+      },
+      {
+        "team": "Oklahoma City Thunder",
+        "number": "",
+        "player": "Dalen Terry",
+        "player_id": "4433159"
       },
       {
         "team": "Oklahoma City Thunder",
