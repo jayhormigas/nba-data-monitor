@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:53:25.367410+00:00",
+  "generated_at": "2026-11-06T20:10:20.957338+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 2 game IDs are unique"
+      "message": "All 9 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 2 games have exactly 2 teams"
+      "message": "All 9 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -421,22 +421,22 @@
         "win_pct": 0.75
       },
       {
+        "team": "Orlando Magic",
+        "wins": 2,
+        "losses": 6,
+        "win_pct": 0.25
+      },
+      {
         "team": "Charlotte Hornets",
         "wins": 3,
         "losses": 6,
         "win_pct": 0.33333334
       },
       {
-        "team": "Orlando Magic",
-        "wins": 2,
-        "losses": 5,
-        "win_pct": 0.2857143
-      },
-      {
         "team": "Miami Heat",
         "wins": 3,
-        "losses": 5,
-        "win_pct": 0.375
+        "losses": 6,
+        "win_pct": 0.33333334
       },
       {
         "team": "Washington Wizards",
@@ -494,15 +494,15 @@
       },
       {
         "team": "Phoenix Suns",
-        "wins": 1,
+        "wins": 2,
         "losses": 5,
-        "win_pct": 0.16666667
+        "win_pct": 0.2857143
       },
       {
         "team": "Golden State Warriors",
-        "wins": 5,
+        "wins": 6,
         "losses": 3,
-        "win_pct": 0.625
+        "win_pct": 0.6666667
       },
       {
         "team": "Los Angeles Lakers",
@@ -658,12 +658,6 @@
       },
       {
         "team": "Boston Celtics",
-        "number": "12",
-        "player": "Chris Cenac Jr.",
-        "player_id": "5142621"
-      },
-      {
-        "team": "Boston Celtics",
         "number": "45",
         "player": "Mike Conley",
         "player_id": "3195"
@@ -790,12 +784,6 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "12",
-        "player": "Riley Minix",
-        "player_id": "5177362"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "45",
         "player": "Donovan Mitchell",
         "player_id": "3908809"
@@ -805,6 +793,12 @@
         "number": "4",
         "player": "Evan Mobley",
         "player_id": "4432158"
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "number": "15",
+        "player": "Norchad Omier",
+        "player_id": "4702134"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -1300,7 +1294,7 @@
       },
       {
         "team": "Golden State Warriors",
-        "number": "",
+        "number": "45",
         "player": "Graham Ike",
         "player_id": "4703396"
       },
@@ -1453,12 +1447,6 @@
         "number": "1",
         "player": "Amen Thompson",
         "player_id": "4684740"
-      },
-      {
-        "team": "Houston Rockets",
-        "number": "2",
-        "player": "Bruce Thornton",
-        "player_id": "5105837"
       },
       {
         "team": "Houston Rockets",
@@ -2614,7 +2602,7 @@
       },
       {
         "team": "Phoenix Suns",
-        "number": "",
+        "number": "2",
         "player": "Drew Timme",
         "player_id": "4431695"
       },
@@ -3064,7 +3052,7 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "",
+        "number": "12",
         "player": "Nate Bittle",
         "player_id": "4432586"
       },
@@ -3100,7 +3088,7 @@
       },
       {
         "team": "Toronto Raptors",
-        "number": "",
+        "number": "9",
         "player": "Kevin McCullar Jr.",
         "player_id": "4411057"
       },
@@ -3574,6 +3562,12 @@
       },
       {
         "team": "Charlotte Hornets",
+        "number": "10",
+        "player": "Michael Ajayi",
+        "player_id": "5176517"
+      },
+      {
+        "team": "Charlotte Hornets",
         "number": "8",
         "player": "Grayson Allen",
         "player_id": "3135045"
@@ -3677,13 +3671,48 @@
     ],
     "games": [
       {
-        "game_id": "401909936",
-        "matchup": "PHX vs ORL",
+        "game_id": "401909287",
+        "matchup": "ATL vs WSH",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909937",
-        "matchup": "GS vs MIA",
+        "game_id": "401909288",
+        "matchup": "CHA vs BOS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909289",
+        "matchup": "CLE vs PHI",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909290",
+        "matchup": "DAL vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909291",
+        "matchup": "MEM vs OKC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909292",
+        "matchup": "MIL vs TOR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909293",
+        "matchup": "NO vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909294",
+        "matchup": "LAL vs POR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909295",
+        "matchup": "SAC vs SA",
         "score": "0 - 0"
       }
     ]
