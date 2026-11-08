@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:24:31.625926+00:00",
+  "generated_at": "2026-11-08T18:35:32.715709+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -363,14 +363,14 @@
       {
         "team": "Brooklyn Nets",
         "wins": 2,
-        "losses": 6,
-        "win_pct": 0.25
+        "losses": 7,
+        "win_pct": 0.22222222
       },
       {
         "team": "New York Knicks",
-        "wins": 4,
+        "wins": 5,
         "losses": 4,
-        "win_pct": 0.5
+        "win_pct": 0.5555556
       },
       {
         "team": "Toronto Raptors",
@@ -405,14 +405,14 @@
       {
         "team": "Indiana Pacers",
         "wins": 3,
-        "losses": 6,
-        "win_pct": 0.33333334
+        "losses": 7,
+        "win_pct": 0.3
       },
       {
         "team": "Cleveland Cavaliers",
         "wins": 5,
-        "losses": 4,
-        "win_pct": 0.5555556
+        "losses": 5,
+        "win_pct": 0.5
       },
       {
         "team": "Detroit Pistons",
@@ -421,16 +421,16 @@
         "win_pct": 0.75
       },
       {
+        "team": "Orlando Magic",
+        "wins": 2,
+        "losses": 7,
+        "win_pct": 0.22222222
+      },
+      {
         "team": "Charlotte Hornets",
         "wins": 3,
         "losses": 7,
         "win_pct": 0.3
-      },
-      {
-        "team": "Orlando Magic",
-        "wins": 2,
-        "losses": 6,
-        "win_pct": 0.25
       },
       {
         "team": "Miami Heat",
@@ -441,14 +441,14 @@
       {
         "team": "Washington Wizards",
         "wins": 4,
-        "losses": 5,
-        "win_pct": 0.44444445
+        "losses": 6,
+        "win_pct": 0.4
       },
       {
         "team": "Atlanta Hawks",
-        "wins": 6,
+        "wins": 7,
         "losses": 4,
-        "win_pct": 0.6
+        "win_pct": 0.6363636
       },
       {
         "team": "Utah Jazz",
@@ -458,15 +458,15 @@
       },
       {
         "team": "Denver Nuggets",
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
-        "win_pct": 0.5714286
+        "win_pct": 0.625
       },
       {
         "team": "Portland Trail Blazers",
         "wins": 6,
-        "losses": 2,
-        "win_pct": 0.75
+        "losses": 3,
+        "win_pct": 0.6666667
       },
       {
         "team": "Minnesota Timberwolves",
@@ -476,9 +476,9 @@
       },
       {
         "team": "Oklahoma City Thunder",
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
-        "win_pct": 0.7777778
+        "win_pct": 0.8
       },
       {
         "team": "Sacramento Kings",
@@ -494,15 +494,15 @@
       },
       {
         "team": "Phoenix Suns",
-        "wins": 2,
+        "wins": 3,
         "losses": 5,
-        "win_pct": 0.2857143
+        "win_pct": 0.375
       },
       {
         "team": "Golden State Warriors",
-        "wins": 6,
+        "wins": 7,
         "losses": 3,
-        "win_pct": 0.6666667
+        "win_pct": 0.7
       },
       {
         "team": "Los Angeles Lakers",
@@ -531,14 +531,14 @@
       {
         "team": "Houston Rockets",
         "wins": 7,
-        "losses": 2,
-        "win_pct": 0.7777778
+        "losses": 3,
+        "win_pct": 0.7
       },
       {
         "team": "San Antonio Spurs",
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
-        "win_pct": 0.7777778
+        "win_pct": 0.8
       }
     ],
     "rosters": [
@@ -760,12 +760,6 @@
       },
       {
         "team": "Cleveland Cavaliers",
-        "number": "21",
-        "player": "Tristan Enaruna",
-        "player_id": "4431734"
-      },
-      {
-        "team": "Cleveland Cavaliers",
         "number": "1",
         "player": "James Harden",
         "player_id": "3992"
@@ -781,6 +775,12 @@
         "number": "5",
         "player": "Sam Merrill",
         "player_id": "4066757"
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "number": "12",
+        "player": "Riley Minix",
+        "player_id": "5177362"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -1447,6 +1447,12 @@
         "number": "1",
         "player": "Amen Thompson",
         "player_id": "4684740"
+      },
+      {
+        "team": "Houston Rockets",
+        "number": "2",
+        "player": "Bruce Thornton",
+        "player_id": "5105837"
       },
       {
         "team": "Houston Rockets",
@@ -3677,38 +3683,38 @@
     ],
     "games": [
       {
-        "game_id": "401909938",
-        "matchup": "IND vs DEN",
+        "game_id": "401909945",
+        "matchup": "CHI vs PHI",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909939",
-        "matchup": "ATL vs BKN",
+        "game_id": "401909946",
+        "matchup": "DET vs LAL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909940",
-        "matchup": "CLE vs NY",
+        "game_id": "401909947",
+        "matchup": "MIN vs UTAH",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909941",
-        "matchup": "OKC vs WSH",
+        "game_id": "401909948",
+        "matchup": "DAL vs BKN",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909942",
-        "matchup": "GS vs ORL",
+        "game_id": "401909949",
+        "matchup": "MIL vs BOS",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909943",
-        "matchup": "PHX vs HOU",
+        "game_id": "401909950",
+        "matchup": "LAC vs NO",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909944",
-        "matchup": "POR vs SA",
+        "game_id": "401909951",
+        "matchup": "SAC vs MIA",
         "score": "0 - 0"
       }
     ]
