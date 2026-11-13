@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:15:16.386608+00:00",
+  "generated_at": "2026-11-13T20:42:35.568116+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 4 game IDs are unique"
+      "message": "All 9 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 4 games have exactly 2 teams"
+      "message": "All 9 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -369,8 +369,8 @@
       {
         "team": "Toronto Raptors",
         "wins": 5,
-        "losses": 6,
-        "win_pct": 0.45454547
+        "losses": 7,
+        "win_pct": 0.41666666
       },
       {
         "team": "New York Knicks",
@@ -380,9 +380,9 @@
       },
       {
         "team": "Philadelphia 76ers",
-        "wins": 9,
+        "wins": 10,
         "losses": 3,
-        "win_pct": 0.75
+        "win_pct": 0.7692308
       },
       {
         "team": "Boston Celtics",
@@ -416,21 +416,21 @@
       },
       {
         "team": "Detroit Pistons",
-        "wins": 7,
+        "wins": 8,
         "losses": 3,
-        "win_pct": 0.7
+        "win_pct": 0.72727275
       },
       {
         "team": "Washington Wizards",
         "wins": 4,
-        "losses": 8,
-        "win_pct": 0.33333334
+        "losses": 9,
+        "win_pct": 0.30769232
       },
       {
         "team": "Charlotte Hornets",
         "wins": 4,
-        "losses": 7,
-        "win_pct": 0.36363637
+        "losses": 8,
+        "win_pct": 0.33333334
       },
       {
         "team": "Orlando Magic",
@@ -476,9 +476,9 @@
       },
       {
         "team": "Minnesota Timberwolves",
-        "wins": 8,
+        "wins": 9,
         "losses": 3,
-        "win_pct": 0.72727275
+        "win_pct": 0.75
       },
       {
         "team": "Sacramento Kings",
@@ -494,9 +494,9 @@
       },
       {
         "team": "Phoenix Suns",
-        "wins": 4,
+        "wins": 5,
         "losses": 6,
-        "win_pct": 0.4
+        "win_pct": 0.45454547
       },
       {
         "team": "Golden State Warriors",
@@ -519,8 +519,8 @@
       {
         "team": "Dallas Mavericks",
         "wins": 7,
-        "losses": 4,
-        "win_pct": 0.6363636
+        "losses": 5,
+        "win_pct": 0.5833333
       },
       {
         "team": "Memphis Grizzlies",
@@ -1945,6 +1945,12 @@
         "number": "5",
         "player": "Anthony Edwards",
         "player_id": "4594268"
+      },
+      {
+        "team": "Minnesota Timberwolves",
+        "number": "33",
+        "player": "Isaiah Evans",
+        "player_id": "5061585"
       },
       {
         "team": "Minnesota Timberwolves",
@@ -3671,23 +3677,48 @@
     ],
     "games": [
       {
-        "game_id": "401909976",
-        "matchup": "PHI vs TOR",
+        "game_id": "401909296",
+        "matchup": "IND vs NY",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909977",
-        "matchup": "WSH vs DET",
+        "game_id": "401909297",
+        "matchup": "ORL vs MIL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909978",
-        "matchup": "MIN vs DAL",
+        "game_id": "401909298",
+        "matchup": "MIA vs CLE",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909979",
-        "matchup": "PHX vs CHA",
+        "game_id": "401909299",
+        "matchup": "CHI vs ATL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909300",
+        "matchup": "NO vs MEM",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909301",
+        "matchup": "HOU vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909302",
+        "matchup": "SA vs GS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909303",
+        "matchup": "SAC vs POR",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909304",
+        "matchup": "LAC vs OKC",
         "score": "0 - 0"
       }
     ]
