@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:57:39.592097+00:00",
+  "generated_at": "2026-11-18T21:40:01.176093+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 5 game IDs are unique"
+      "message": "All 12 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 5 games have exactly 2 teams"
+      "message": "All 12 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -369,14 +369,14 @@
       {
         "team": "Toronto Raptors",
         "wins": 5,
-        "losses": 8,
-        "win_pct": 0.3846154
+        "losses": 9,
+        "win_pct": 0.35714287
       },
       {
         "team": "New York Knicks",
-        "wins": 7,
+        "wins": 8,
         "losses": 6,
-        "win_pct": 0.53846157
+        "win_pct": 0.5714286
       },
       {
         "team": "Boston Celtics",
@@ -416,9 +416,9 @@
       },
       {
         "team": "Detroit Pistons",
-        "wins": 8,
+        "wins": 9,
         "losses": 4,
-        "win_pct": 0.6666667
+        "win_pct": 0.6923077
       },
       {
         "team": "Washington Wizards",
@@ -429,8 +429,8 @@
       {
         "team": "Charlotte Hornets",
         "wins": 4,
-        "losses": 9,
-        "win_pct": 0.30769232
+        "losses": 10,
+        "win_pct": 0.2857143
       },
       {
         "team": "Orlando Magic",
@@ -452,9 +452,9 @@
       },
       {
         "team": "Utah Jazz",
-        "wins": 1,
+        "wins": 2,
         "losses": 13,
-        "win_pct": 0.071428575
+        "win_pct": 0.13333334
       },
       {
         "team": "Denver Nuggets",
@@ -463,22 +463,22 @@
         "win_pct": 0.5833333
       },
       {
+        "team": "Portland Trail Blazers",
+        "wins": 9,
+        "losses": 5,
+        "win_pct": 0.64285713
+      },
+      {
         "team": "Oklahoma City Thunder",
         "wins": 9,
         "losses": 5,
         "win_pct": 0.64285713
       },
       {
-        "team": "Portland Trail Blazers",
-        "wins": 9,
-        "losses": 4,
-        "win_pct": 0.6923077
-      },
-      {
         "team": "Minnesota Timberwolves",
-        "wins": 10,
+        "wins": 11,
         "losses": 4,
-        "win_pct": 0.71428573
+        "win_pct": 0.73333335
       },
       {
         "team": "Sacramento Kings",
@@ -489,8 +489,8 @@
       {
         "team": "LA Clippers",
         "wins": 4,
-        "losses": 8,
-        "win_pct": 0.33333334
+        "losses": 9,
+        "win_pct": 0.30769232
       },
       {
         "team": "Phoenix Suns",
@@ -506,9 +506,9 @@
       },
       {
         "team": "Los Angeles Lakers",
-        "wins": 12,
+        "wins": 13,
         "losses": 2,
-        "win_pct": 0.85714287
+        "win_pct": 0.8666667
       },
       {
         "team": "New Orleans Pelicans",
@@ -537,8 +537,8 @@
       {
         "team": "San Antonio Spurs",
         "wins": 12,
-        "losses": 2,
-        "win_pct": 0.85714287
+        "losses": 3,
+        "win_pct": 0.8
       }
     ],
     "rosters": [
@@ -757,6 +757,12 @@
         "number": "31",
         "player": "Jarrett Allen",
         "player_id": "4066328"
+      },
+      {
+        "team": "Cleveland Cavaliers",
+        "number": "55",
+        "player": "Zack Austin",
+        "player_id": "4702099"
       },
       {
         "team": "Cleveland Cavaliers",
@@ -3166,6 +3172,12 @@
       },
       {
         "team": "Utah Jazz",
+        "number": "13",
+        "player": "Jonas Aidoo",
+        "player_id": "4684682"
+      },
+      {
+        "team": "Utah Jazz",
         "number": "19",
         "player": "Ace Bailey",
         "player_id": "4873138"
@@ -3544,6 +3556,12 @@
       },
       {
         "team": "Detroit Pistons",
+        "number": "8",
+        "player": "Chaz Lanier",
+        "player_id": "4700852"
+      },
+      {
+        "team": "Detroit Pistons",
         "number": "23",
         "player": "Ebuka Okorie",
         "player_id": "5258459"
@@ -3695,28 +3713,63 @@
     ],
     "games": [
       {
-        "game_id": "401910002",
-        "matchup": "TOR vs NY",
+        "game_id": "401910007",
+        "matchup": "CLE vs MEM",
         "score": "0 - 0"
       },
       {
-        "game_id": "401910003",
-        "matchup": "MIN vs POR",
+        "game_id": "401910008",
+        "matchup": "IND vs HOU",
         "score": "0 - 0"
       },
       {
-        "game_id": "401910004",
-        "matchup": "SA vs DET",
+        "game_id": "401910009",
+        "matchup": "MIA vs MIL",
         "score": "0 - 0"
       },
       {
-        "game_id": "401910006",
-        "matchup": "LAC vs UTAH",
+        "game_id": "401910010",
+        "matchup": "ORL vs PHI",
         "score": "0 - 0"
       },
       {
-        "game_id": "401910005",
-        "matchup": "LAL vs CHA",
+        "game_id": "401910011",
+        "matchup": "BKN vs CHI",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910012",
+        "matchup": "TOR vs WSH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910013",
+        "matchup": "NO vs DET",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910014",
+        "matchup": "OKC vs ATL",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910016",
+        "matchup": "DAL vs GS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910015",
+        "matchup": "DEN vs BOS",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910017",
+        "matchup": "LAL vs UTAH",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401910018",
+        "matchup": "SAC vs PHX",
         "score": "0 - 0"
       }
     ]
