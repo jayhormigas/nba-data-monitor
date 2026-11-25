@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T23:19:52.013590+00:00",
+  "generated_at": "2026-11-25T22:52:17.403956+00:00",
   "summary": {
     "total": 18,
     "passed": 18,
@@ -101,7 +101,7 @@
       "category": "Scoreboard",
       "rule": "Game IDs are unique",
       "passed": true,
-      "message": "All 3 game IDs are unique"
+      "message": "All 9 game IDs are unique"
     },
     {
       "category": "Scoreboard",
@@ -113,7 +113,7 @@
       "category": "Scoreboard",
       "rule": "Every game has exactly 2 teams",
       "passed": true,
-      "message": "All 3 games have exactly 2 teams"
+      "message": "All 9 games have exactly 2 teams"
     }
   ],
   "data": {
@@ -373,16 +373,16 @@
         "win_pct": 0.3529412
       },
       {
-        "team": "Boston Celtics",
+        "team": "New York Knicks",
         "wins": 11,
         "losses": 6,
         "win_pct": 0.64705884
       },
       {
-        "team": "New York Knicks",
-        "wins": 11,
+        "team": "Boston Celtics",
+        "wins": 12,
         "losses": 6,
-        "win_pct": 0.64705884
+        "win_pct": 0.6666667
       },
       {
         "team": "Philadelphia 76ers",
@@ -416,9 +416,9 @@
       },
       {
         "team": "Detroit Pistons",
-        "wins": 10,
+        "wins": 11,
         "losses": 6,
-        "win_pct": 0.625
+        "win_pct": 0.64705884
       },
       {
         "team": "Charlotte Hornets",
@@ -429,14 +429,14 @@
       {
         "team": "Washington Wizards",
         "wins": 7,
-        "losses": 11,
-        "win_pct": 0.3888889
+        "losses": 12,
+        "win_pct": 0.36842105
       },
       {
         "team": "Orlando Magic",
         "wins": 7,
-        "losses": 9,
-        "win_pct": 0.4375
+        "losses": 10,
+        "win_pct": 0.4117647
       },
       {
         "team": "Miami Heat",
@@ -465,8 +465,8 @@
       {
         "team": "Denver Nuggets",
         "wins": 10,
-        "losses": 5,
-        "win_pct": 0.6666667
+        "losses": 6,
+        "win_pct": 0.625
       },
       {
         "team": "Portland Trail Blazers",
@@ -518,9 +518,9 @@
       },
       {
         "team": "Dallas Mavericks",
-        "wins": 10,
+        "wins": 11,
         "losses": 7,
-        "win_pct": 0.5882353
+        "win_pct": 0.6111111
       },
       {
         "team": "Houston Rockets",
@@ -3719,18 +3719,48 @@
     ],
     "games": [
       {
-        "game_id": "401909314",
-        "matchup": "ORL vs DET",
+        "game_id": "401909317",
+        "matchup": "PHI vs MIA",
+        "score": "45 - 39"
+      },
+      {
+        "game_id": "401909318",
+        "matchup": "CHA vs CHI",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909315",
-        "matchup": "WSH vs BOS",
+        "game_id": "401909319",
+        "matchup": "NY vs CLE",
         "score": "0 - 0"
       },
       {
-        "game_id": "401909316",
-        "matchup": "DEN vs DAL",
+        "game_id": "401909320",
+        "matchup": "OKC vs MIN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909321",
+        "matchup": "MEM vs LAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909322",
+        "matchup": "MIL vs BKN",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909323",
+        "matchup": "HOU vs PHX",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909324",
+        "matchup": "GS vs SAC",
+        "score": "0 - 0"
+      },
+      {
+        "game_id": "401909325",
+        "matchup": "POR vs SA",
         "score": "0 - 0"
       }
     ]
